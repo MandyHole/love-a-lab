@@ -31,6 +31,19 @@ body {
     border-bottom: 2px dotted #eb4084;
 } 
 
+/* home hero styling */
+#home-hero {
+    width: 100%;
+    height:600px;
+    background: url(../images/home-hero2.jpg) no-repeat right center;
+    overflow: hidden;
+}
+
+
+
+
+
+
 
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Merriweather&display=swap');
