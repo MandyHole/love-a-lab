@@ -3,6 +3,7 @@ body {
     padding: 0 0;
 }
 
+/* header elements */
 #logo {
     width: 20%;
     margin: 10px 30px;
@@ -11,3 +12,24 @@ body {
 #logo img {
     width:100%;
 }
+
+#main-navigation {
+    float:right;
+}
+#main-navigation li {
+    display: inline;
+}
+#main-navigation a {
+    font-family: 'Merriweather', serif;
+    font-size:1.5rem;
+    margin-right: 30px;
+    text-decoration: none;
+    color: #40b0df;
+}
+/* #main-navigation a:active {
+    border-top: 2px solid #eb4084;
+} */
+
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Merriweather&display=swap');
