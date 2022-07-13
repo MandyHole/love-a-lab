@@ -1,4 +1,13 @@
 body {
-    background-color: blueviolet;
-    height:600px;
+    margin:0 0;
+    padding: 0 0;
+}
+
+#logo {
+    width: 20%;
+    margin: 10px 30px;
+    float: left;
+}
+#logo img {
+    width:100%;
 }
