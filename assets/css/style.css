@@ -1,6 +1,7 @@
 body {
     margin:0 0;
     padding: 0 0;
+    font-family: 'Merriweather', serif;
 }
 
 /* header elements */
@@ -21,7 +22,6 @@ body {
     display: inline;
 }
 #main-navigation a {
-    font-family: 'Merriweather', serif;
     font-size:1.5rem;
     margin-right: 30px;
     text-decoration: none;
@@ -37,9 +37,30 @@ body {
     height:600px;
     background: url(../images/home-hero2.jpg) no-repeat right center;
     overflow: hidden;
+    position: relative;
 }
-
-
+#home-hero-text {
+    background-color: rgba(64, 176, 223, .7);
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    right:20px;
+    bottom: 20px;
+}
+#home-hero-text > h1 {
+    padding: 10px 5px 5px 15px;
+    font-size: xx-large;
+    font-family: 'Chewy', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#home-hero-text > h2 {
+    font-size: x-large;
+    font-family: inherit;
+    padding: 0 5px 5px 15px;
+    text-align: center;
+}
 
 
 
