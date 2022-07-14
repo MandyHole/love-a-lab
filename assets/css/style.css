@@ -55,6 +55,15 @@ body {
     letter-spacing: 1px;
     text-align: center;
 }
+hr {
+    border-style: dotted none none;
+    border-width: 8px;
+    border-color: #eb4084;
+    margin: -5px auto 0 auto;
+    width: 50%;
+
+
+}
 #home-hero-text > h2 {
     font-size: x-large;
     font-family: inherit;
