@@ -28,7 +28,7 @@ body {
     color: #40b0df;
 }
 .active {
-    border-bottom: 2px dotted #eb4084;
+    border-bottom: 4px dotted #eb4084;
 } 
 
 /* home hero styling */
