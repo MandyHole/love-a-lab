@@ -5,6 +5,13 @@ body {
 }
 
 /* header elements */
+
+header {
+    position: fixed;
+    z-index: 3;
+    background-color: #fff;
+    width:100%;
+}
 #logo {
     width: 200px;
     margin: 10px 30px;
