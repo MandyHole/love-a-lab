@@ -212,7 +212,7 @@ hr {
     float:left;
     width:35%
 }
-#about-me img {
+#about-me-header img {
     border-radius: 50%;
     width:80%;
     text-align: center;
@@ -227,6 +227,9 @@ hr {
 }
 #about-me p {
     font-size: 1.1rem;
+}
+.media-filler {
+    display: none;
 }
 
 /* section divider */
@@ -313,8 +316,9 @@ input, textarea {
         width: 50%;
 }
 #right-essentials {
-    width:100%;
+    width:50%;
     padding-top: 10px;
+    float:left;
 }
 #about-me {
     width: 50%;}
@@ -338,6 +342,7 @@ input, textarea {
 }
 .essential-image, {
     padding: 20px 0;
+
 }
 
 .box-style-left {
@@ -345,9 +350,25 @@ input, textarea {
 }
 .box-style-right {
     margin: 10px 0;
-    width: 50%;
+}
+.media-filler {
+    display: flex;
+    border-radius: 0%;
+    width:100%;
+}
+.hidden-image {
+    display: none;
 }
 
+#footer-hero-text {
+    height: 600px;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    margin: 0 auto;
+    bottom: 0;
+}
+}
 
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Merriweather&display=swap');
