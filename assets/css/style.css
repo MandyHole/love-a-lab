@@ -118,7 +118,7 @@ hr {
 
 
 }
-.box-style-one {
+.box-style-left {
 margin-left: 30px;
 background-color: #f8cf40;
 padding: 5%;
@@ -126,12 +126,12 @@ border: 4px dotted #eb4084;
 height: 300px;
 }
 
-.box-style-one > h3 {
+.box-style-left > h3 {
     font-size: 1.5rem;
     text-align: center;
 }
 
-.box-style-one p, .box-style-one li {
+.box-style-left p, .box-style-left li {
     font-size: 1.1rem;
 }
 
@@ -146,10 +146,29 @@ height: 300px;
 .essential-image {
     margin-left: 10px;
     padding: 0;
+    clear:both;
 }
 .essential-image > img{
     height:348px;
 }
+
+.box-style-right {
+    margin-left: 30px;
+    background-color: #f8cf40;
+    padding: 5%;
+    border: 4px dotted #eb4084;
+    height: 300px;
+    }
+    
+    .box-style-right > h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .box-style-right p, .box-style-right li {
+        font-size: 1.1rem;
+    }
+    
 
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Merriweather&display=swap');
