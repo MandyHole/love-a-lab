@@ -118,10 +118,7 @@ height: 300px;
     text-align: center;
 }
 
-.box-style-one > p {
-    font-size: 1.1rem;
-}
-.box-style-one li {
+.box-style-one p, .box-style-one li {
     font-size: 1.1rem;
 }
 
