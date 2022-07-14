@@ -71,9 +71,29 @@ hr {
     text-align: center;
 }
 
+/* essentials section styling */
 
 
+#left-essentials {
+    width: 33%;
+    float: left;
+    background-color: #eb4084;
+    height: 1200px;
+}
 
+#right-essentials {
+    width: 33%;
+    background-color: #f8cf40;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+#about-me {
+    width: 33%;
+    float: right;
+    background-color: #40b0df;
+    height: 1200px;
+}
 
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Merriweather&display=swap');
