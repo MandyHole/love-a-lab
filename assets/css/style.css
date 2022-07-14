@@ -200,7 +200,7 @@ hr {
     width: 33%;
     float: right;
     background-color: #40b0df;
-    height: 1250px;
+    height: 100%;
     padding: 1% 3%;
     box-sizing: border-box;
 }
@@ -240,10 +240,48 @@ hr {
 
 }
 
+/* footer  */
+
+#footer-hero {
+    width: 100%;
+    height: 600px;
+    background: url(../images/home-hero2.jpg) no-repeat right center;
+    overflow: hidden;
+    position: relative;
+}
+
+#footer-hero-text {
+    background-color: rgba(64, 176, 223, .7);
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
+#footer-hero-text>h1 {
+    padding: 10px 5px 5px 15px;
+    font-size: xx-large;
+    font-family: 'Chewy', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+#footer-hero-text>h2 {
+    font-size: x-large;
+    font-family: inherit;
+    padding: 0 5px 5px 15px;
+    text-align: center;
+}
+
 .divider hr {
     width:80%;
     margin: 0 auto;
 }
+
+
 
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Merriweather&display=swap');
