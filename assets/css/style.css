@@ -340,8 +340,9 @@ input, textarea {
     text-align: center;
     padding: 10px 0;
 }
-.essential-image, {
-    padding: 20px 0;
+.essential-image {
+    padding: 3px 0;
+    text-align: center;
 
 }
 
