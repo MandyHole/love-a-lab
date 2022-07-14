@@ -4,6 +4,16 @@ body {
     font-family: 'Merriweather', serif;
     color: #0C1D1D;
 }
+/* headings */
+
+.chewy-heading {
+    font-size: xx-large;
+    font-family: 'Chewy', cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
 
 /* header elements */
 
@@ -63,19 +73,14 @@ header {
 }
 
 #home-hero-text>h1 {
-    padding: 10px 5px 5px 15px;
-    font-size: xx-large;
-    font-family: 'Chewy', cursive;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-align: center;
+    padding: 5px;
 }
 
 hr {
     border-style: dotted none none;
     border-width: 8px;
     border-color: #eb4084;
-    margin: -5px auto 0 auto;
+    margin: -20px auto 0 auto;
     width: 50%;
 
 
@@ -102,10 +107,6 @@ hr {
 #essentials-intro>h2 {
     text-align: center;
     width: 100%;
-    font-size: 2rem;
-    font-family: 'Chewy', cursive;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 #essentials-intro>hr {
@@ -205,12 +206,8 @@ hr {
     box-sizing: border-box;
 }
 #about-me h2 {
-    font-size: 2rem;
-    font-family: 'Chewy', cursive;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    text-align: left;
 }
-
 .circle-image {
     float:left;
     width:35%
@@ -270,11 +267,6 @@ footer {
 
 #footer-hero-text>h1 {
     padding: 10px 5px 0 15px;
-    font-size: xx-large;
-    font-family: 'Chewy', cursive;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-align: center;
 }
 
 
