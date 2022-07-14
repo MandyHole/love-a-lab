@@ -78,9 +78,10 @@ hr {
     float: left;
     background-color: green;
     clear:both;
+    padding:3%;
+    box-sizing: border-box;
 }
 #essentials-intro > h2 {
-    margin-left:30px;
     text-align: center;
     width: 100%;
     font-size: 2rem;
@@ -90,7 +91,7 @@ hr {
     color: darkslategray;
 }
 #essentials-intro > hr {
-    margin: 0 auto%;
+    margin: 0 auto;
 }
 #essentials-intro > p {
     font-size: x-large;
@@ -142,11 +143,12 @@ height: 300px;
     float:right;
 }
 
-
-
 .essential-image {
-    background: url(../images/essential-1.jpg) no-repeat center center;
-    height:300px;
+    margin-left: 10px;
+    padding: 0;
+}
+.essential-image > img{
+    height:348px;
 }
 
 /* Google Fonts */
