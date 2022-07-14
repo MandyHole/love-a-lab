@@ -300,13 +300,52 @@ input, textarea {
 }
 
 /* media queries */
+
+/* max 1260px */
 @media screen and (max-width: 1260px){
-   
-        
         #footer-hero-text,  .box-style-right,  .box-style-left, .essential-image>img, .essential-image-left>img {
         width: 350px;
 }
+}
+/* max 1107 */
+@media screen and (max-width: 1107px) {
+    #left-essentials {
+        width: 50%;
+}
+#right-essentials {
+    width:100%;
+    padding-top: 10px;
+}
+#about-me {
+    width: 50%;}
 
+    #essentials-intro {
+        width:50%}
+
+    #footer-hero-text,  .box-style-right,  .box-style-left,{
+        width: 90%;
+        box-sizing: border-box;
+        margin: 0 auto;
+}
+.essential-image>img, .essential-image-left>img {
+    width: 300px;
+    height: 300px;
+}
+.essential-image-left {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+.essential-image, {
+    padding: 20px 0;
+}
+
+.box-style-left {
+    margin: 0 auto;
+}
+.box-style-right {
+    margin: 10px 0;
+    width: 50%;
 }
 
 
