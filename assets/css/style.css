@@ -258,15 +258,18 @@ footer {
 
 #footer-hero-text {
     background-color: rgba(64, 176, 223, .7);
-    height: 200px;
+    height: 500px;
     width: 400px;
     position: absolute;
     left: 30px;
-    bottom: 20px;
+    bottom: 50px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
 }
 
 #footer-hero-text>h1 {
-    padding: 10px 5px 5px 15px;
+    padding: 10px 5px 0 15px;
     font-size: xx-large;
     font-family: 'Chewy', cursive;
     text-transform: uppercase;
@@ -275,14 +278,34 @@ footer {
 }
 
 
-#footer-hero-text>h2 {
-    font-size: x-large;
-    font-family: inherit;
-    padding: 0 5px 5px 15px;
+#footer-hero-text>hr {
+    margin: 0 auto 10px;
+}
+input, textarea {
+    background-color: #f8cf40;
+    margin: 0 auto;
+    border: 2px solid #eb4084;
+    text-align: center;
+
+}
+.input-line {
+    display: block;
+    clear:both;
+    line-height: 2rem;
     text-align: center;
 }
 
-
+.small {
+    font-size: smaller;
+}
+.submit-button:hover {
+    background-color:#eb4084;
+    border: 2px solid #f8cf40;
+    
+}
+.submit-button {
+    text-transform: uppercase;
+}
 
 
 /* Google Fonts */
