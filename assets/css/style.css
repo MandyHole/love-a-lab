@@ -219,6 +219,7 @@ hr {
     width: 35%
 }
 
+
 #about-me-header img {
     border-radius: 50%;
     width: 80%;
@@ -239,9 +240,37 @@ hr {
     font-size: 1.1rem;
 }
 
+/* About-me-mobile */
+#about-me-mobile {
+    display: none;
+}
+#about-me-mobile h2 {
+
+    display:none;
+}
+
+#about-me-mobile-header img {
+  
+    display: none;
+}
+
+.about-me-mobile-header {
+    display:none;
+}
+
+.about-me-mobile-body {
+
+    display:none;
+}
+
+#about-me-mobile p {
+    display: none;
+}
+
 .media-filler {
     display: none;
 }
+
 
 /* section divider */
 .divider {
@@ -411,9 +440,6 @@ textarea {
         bottom: 0;
         box-sizing: border-box;
     }
-    #about-me-mobile {
-        display: none;
-    }
 
 }
 
@@ -480,26 +506,31 @@ textarea {
 
 #about-me-mobile h2 {
     text-align: left;
+    display:flex;
 }
 
 #about-me-mobile-header img {
     border-radius: 50%;
     width: 80%;
     text-align: center;
+    display: flex;
 }
 
 .about-me-mobile-header {
     width: 100%;
+    display:flex;
 }
 
 .about-me-mobile-body {
     width: 90%;
     clear: both;
     padding: 0 5%;
+    display:flex;
 }
 
 #about-me-mobile p {
     font-size: 1.1rem;
+    display: flex;
 }
 .media-filler {
     display: none;
@@ -508,6 +539,7 @@ textarea {
     width:100%;
     bottom:0;
     padding-top: 15%;
+}
 }
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Merriweather&display=swap');
