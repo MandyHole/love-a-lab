@@ -444,7 +444,7 @@ textarea {
 }
 
 /* max 696px */
-@media screen and (max-width: 606px) {
+@media screen and (max-width: 696px) {
     #home-hero {
         background: url(../images/hero-mobile2.jpg) no-repeat top center;
         height:550px;
@@ -496,41 +496,43 @@ textarea {
 #about-me-mobile {
     width: 100%;
     height: 100%;
-    display: flex;
+    display: inline-block;
     clear: both;
     background-color: #40b0df;
-    padding: 0 0;
+    padding: 10px 0;
     box-sizing: border-box;
     line-height: 1.5rem;
+    margin-top:10px
 }
 
 #about-me-mobile h2 {
     text-align: left;
-    display:flex;
+    display:inline-block;
 }
 
 #about-me-mobile-header img {
     border-radius: 50%;
-    width: 80%;
+    width: 30%;
     text-align: center;
-    display: flex;
+    display: inline-block;
 }
 
 .about-me-mobile-header {
     width: 100%;
-    display:flex;
+    display:inline-block;
+    text-align: center;
 }
 
 .about-me-mobile-body {
     width: 90%;
     clear: both;
     padding: 0 5%;
-    display:flex;
+    display:inline-block;
 }
 
 #about-me-mobile p {
     font-size: 1.1rem;
-    display: flex;
+    display: inline-block;
 }
 .media-filler {
     display: none;
@@ -539,6 +541,10 @@ textarea {
     width:100%;
     bottom:0;
     padding-top: 15%;
+}
+.circle-image-mobile {
+    text-align: center;
+    
 }
 }
 /* Google Fonts */
