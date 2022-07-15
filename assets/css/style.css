@@ -209,6 +209,7 @@ hr {
     line-height: 1.5rem;
 }
 
+
 #about-me h2 {
     text-align: left;
 }
@@ -339,6 +340,10 @@ textarea {
 
 /* max 1107 */
 @media screen and (max-width: 1107px) {
+    #essentials-intro {
+        width: 50%
+    }
+    
     #left-essentials {
         width: 50%;
     }
@@ -354,26 +359,20 @@ textarea {
         height: 2145px;
     }
 
-    
-
-    #essentials-intro {
-        width: 50%
-    }
-
-    #footer-hero-text,
-    .box-style-right,
-    .box-style-left,
-        {
+    .box-style-left {
+        margin: 0 auto;
         width: 90%;
         box-sizing: border-box;
         margin: 0 auto;
     }
 
-    .essential-image>img,
-    .essential-image-left>img {
-        width: 300px;
-        height: 300px;
+    .box-style-right {
+        margin: 10px auto;
+        width: 90%;
+        box-sizing: border-box;
+        margin: 0 auto;
     }
+
 
     .essential-image-left {
         margin: 0 auto;
@@ -386,14 +385,12 @@ textarea {
         text-align: center;
 
     }
-
-    .box-style-left {
-        margin: 0 auto;
+    .essential-image>img,
+    .essential-image-left>img {
+        width: 300px;
+        height: 300px;
     }
 
-    .box-style-right {
-        margin: 10px auto;
-    }
 
     .media-filler {
         display: flex;
@@ -412,8 +409,72 @@ textarea {
         left: 0;
         margin: 0 auto;
         bottom: 0;
+        box-sizing: border-box;
     }
+    #about-me-mobile {
+        display: none;
+    }
+
 }
 
+/* max 696px */
+@media screen and (max-width: 606px) {
+    #essentials-intro {
+        width: 100%
+    }
+    #left-essentials {
+        width: 100%;
+    }
+    .box-style-left, .box-style-right {
+        height:100%
+    }
+
+    #right-essentials {
+        width: 100%;
+        padding-top: 10px;
+    }
+  
+    #about-me {
+        display:none;
+    }
+
+#about-me-mobile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    clear: both;
+    background-color: #40b0df;
+    padding: 1% 3%;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+}
+
+#about-me-mobile h2 {
+    text-align: left;
+}
+
+#about-me-mobile-header img {
+    border-radius: 50%;
+    width: 80%;
+    text-align: center;
+}
+
+.about-me-mobile-header {
+    width: 60%;
+    float: right;
+}
+
+.about-me-mobile-body {
+    width: 100%;
+    clear: both;
+}
+
+#about-me-mobile p {
+    font-size: 1.1rem;
+}
+.media-filler {
+    display: none;
+}
+}
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Merriweather&display=swap');
