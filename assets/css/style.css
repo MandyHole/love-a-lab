@@ -444,14 +444,10 @@ textarea {
         
         margin: 0 auto;
         width: 50%;
-    
+
     
     }
     
-
-
-
-
     #essentials-intro {
         width: 100%
     }
@@ -477,7 +473,7 @@ textarea {
     display: flex;
     clear: both;
     background-color: #40b0df;
-    padding: 1% 3%;
+    padding: 0 0;
     box-sizing: border-box;
     line-height: 1.5rem;
 }
@@ -493,13 +489,13 @@ textarea {
 }
 
 .about-me-mobile-header {
-    width: 60%;
-    float: right;
+    width: 100%;
 }
 
 .about-me-mobile-body {
-    width: 100%;
+    width: 90%;
     clear: both;
+    padding: 0 5%;
 }
 
 #about-me-mobile p {
