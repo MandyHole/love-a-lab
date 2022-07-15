@@ -4,6 +4,7 @@ body {
     font-family: 'Merriweather', serif;
     color: #0C1D1D;
 }
+
 /* headings */
 
 .chewy-heading {
@@ -21,8 +22,9 @@ header {
     position: fixed;
     z-index: 3;
     background-color: #fff;
-    width:100%;
+    width: 100%;
 }
+
 #logo {
     width: 200px;
     margin: 10px 30px;
@@ -201,40 +203,47 @@ hr {
     width: 33%;
     float: right;
     background-color: #40b0df;
-    height: 100%;
+    height: 1427px;
     padding: 1% 3%;
     box-sizing: border-box;
 }
+
 #about-me h2 {
     text-align: left;
 }
+
 .circle-image {
-    float:left;
-    width:35%
+    float: left;
+    width: 35%
 }
+
 #about-me-header img {
     border-radius: 50%;
-    width:80%;
+    width: 80%;
     text-align: center;
 }
+
 .about-me-header {
-    width:60%;
-    float:right;
+    width: 60%;
+    float: right;
 }
+
 .about-me-body {
     width: 100%;
     clear: both;
 }
+
 #about-me p {
     font-size: 1.1rem;
 }
+
 .media-filler {
     display: none;
 }
 
 /* section divider */
 .divider {
-    width:100%;
+    width: 100%;
     padding: 0 0;
     margin: 0 0;
 
@@ -243,10 +252,11 @@ hr {
 /* footer  */
 
 footer {
-    margin-top:30px;
+    margin-top: 30px;
     clear: both;
     border-top: 8px solid #eb4084;
 }
+
 #footer-hero {
     width: 100%;
     height: 600px;
@@ -276,16 +286,19 @@ footer {
 #footer-hero-text>hr {
     margin: 0 auto 10px;
 }
-input, textarea {
+
+input,
+textarea {
     background-color: #f8cf40;
     margin: 0 auto;
     border: 2px solid #eb4084;
     text-align: center;
 
 }
+
 .input-line {
     display: block;
-    clear:both;
+    clear: both;
     line-height: 2rem;
     text-align: center;
 }
@@ -293,11 +306,13 @@ input, textarea {
 .small {
     font-size: smaller;
 }
+
 .submit-button:hover {
-    background-color:#eb4084;
+    background-color: #eb4084;
     border: 2px solid #f8cf40;
-    
+
 }
+
 .submit-button {
     text-transform: uppercase;
 }
@@ -305,70 +320,97 @@ input, textarea {
 /* media queries */
 
 /* max 1260px */
-@media screen and (max-width: 1260px){
-        #footer-hero-text,  .box-style-right,  .box-style-left, .essential-image>img, .essential-image-left>img {
+@media screen and (max-width: 1260px) {
+
+    #footer-hero-text,
+    .box-style-right,
+    .box-style-left,
+    .essential-image>img,
+    .essential-image-left>img {
         width: 350px;
+    }
+
+    #about-me {
+        height: 1445px;
+    }
 }
-}
+
 /* max 1107 */
 @media screen and (max-width: 1107px) {
     #left-essentials {
         width: 50%;
-}
-#right-essentials {
-    width:50%;
-    padding-top: 10px;
-    float:left;
-}
-#about-me {
-    width: 50%;}
+    }
+
+    #right-essentials {
+        width: 50%;
+        padding-top: 10px;
+        float: left;
+    }
+
+    #about-me {
+        width: 50%;
+        height: 2145px;
+    }
+
+    
 
     #essentials-intro {
-        width:50%}
+        width: 50%
+    }
 
-    #footer-hero-text,  .box-style-right,  .box-style-left,{
+    #footer-hero-text,
+    .box-style-right,
+    .box-style-left,
+        {
         width: 90%;
         box-sizing: border-box;
         margin: 0 auto;
-}
-.essential-image>img, .essential-image-left>img {
-    width: 300px;
-    height: 300px;
-}
-.essential-image-left {
-    margin: 0 auto;
-    text-align: center;
-    padding: 10px 0;
-}
-.essential-image {
-    padding: 3px 0;
-    text-align: center;
+    }
 
-}
+    .essential-image>img,
+    .essential-image-left>img {
+        width: 300px;
+        height: 300px;
+    }
 
-.box-style-left {
-    margin: 0 auto;
-}
-.box-style-right {
-    margin: 10px 0;
-}
-.media-filler {
-    display: flex;
-    border-radius: 0%;
-    width:100%;
-}
-.hidden-image {
-    display: none;
-}
+    .essential-image-left {
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 0;
+    }
 
-#footer-hero-text {
-    height: 600px;
-    width: 200px;
-    position: absolute;
-    left: 0;
-    margin: 0 auto;
-    bottom: 0;
-}
+    .essential-image {
+        padding: 3px 0;
+        text-align: center;
+
+    }
+
+    .box-style-left {
+        margin: 0 auto;
+    }
+
+    .box-style-right {
+        margin: 10px 0;
+    }
+
+    .media-filler {
+        display: flex;
+        border-radius: 0%;
+        width: 100%;
+    }
+
+    .hidden-image {
+        display: none;
+    }
+
+    #footer-hero-text {
+        height: 600px;
+        width: 200px;
+        position: absolute;
+        left: 0;
+        margin: 0 auto;
+        bottom: 0;
+    }
 }
 
 /* Google Fonts */
