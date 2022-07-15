@@ -475,6 +475,10 @@ textarea {
 .media-filler {
     display: none;
 }
+#footer-hero-text {
+    width:100%;
+    bottom:0;
+    padding-top: 10%;
 }
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Merriweather&display=swap');
