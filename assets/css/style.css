@@ -338,7 +338,7 @@ textarea {
     font-size: smaller;
 }
 
-.submit-button:hover {
+.submit-button:hover, {
     background-color: #eb4084;
     border: 2px solid #f8cf40;
 
@@ -512,12 +512,19 @@ textarea {
     text-align: left;
     display:inline-block;
 }
+#about-me-mobile hr {
+margin: 3px auto 1px auto;
+}
 
 #about-me-mobile-header img {
     border-radius: 50%;
     width: 30%;
     text-align: center;
-    display: inline-block;
+    display: block;
+    float: none;
+    clear:both;
+    margin: 0 auto;
+    padding: 15px;
 }
 
 .about-me-mobile-header {
@@ -549,6 +556,42 @@ textarea {
     text-align: center;
     
 }
+#more {
+    display: none;
+}
+#myBtn {
+    background-color: transparent;
+border: 2px solid #f8cf40;
+text-transform: uppercase;
+color: #0C1D1D;
+padding: .5rem 1.3rem;
+display: block;
+margin: 0 auto;
+font-size: 1.2rem;
+
+}
+#myBtn:hover {
+    background-color: #f8cf40;
+    border: 2px solid  #eb4084;
+    color: #0C1D1D;
 }
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Merriweather&display=swap');
+
+<script>
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
