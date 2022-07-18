@@ -350,6 +350,16 @@ textarea {
     text-transform: uppercase;
 }
 
+/* pros-cons.html styling */
+#pros-hero {
+    width: 100%;
+    height: 600px;
+    background: url(../images/pro-con-hero.jpg) no-repeat center center;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 8px solid #eb4084
+}
+
 /* media queries */
 
 /* max 1260px */
