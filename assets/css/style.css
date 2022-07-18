@@ -69,7 +69,6 @@ header {
     position: relative;
     border-bottom: 8px solid #eb4084
 }
-
 #home-hero-text {
     background-color: rgba(64, 176, 223, .7);
     height: 200px;
@@ -79,7 +78,7 @@ header {
     bottom: 20px;
 }
 
-#home-hero-text>h1 {
+.hero-main {
     padding: 5px;
 }
 
@@ -93,7 +92,7 @@ hr {
 
 }
 
-#home-hero-text>h2 {
+.hero-secondary {
     font-size: x-large;
     font-family: inherit;
     padding: 0 5px 5px 15px;
@@ -359,6 +358,15 @@ textarea {
     position: relative;
     border-bottom: 8px solid #eb4084
 }
+#pro-con-hero-text {
+    background-color: rgba(64, 176, 223, .7);
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
 
 #pro-con-container {
     display:flex;
@@ -494,6 +502,11 @@ text-align: left;}
     }
     
     /* pros/cons */
+    #pro-con-hero-text {
+        left: 0;
+        bottom: 0;
+        height: 168px;
+    }
 
     .pros-content, .cons-content {
         padding: 1% 2%;
@@ -516,17 +529,17 @@ text-align: left;}
         height:100%;
         position: absolute;
     }
-    #home-hero-text>h2 {
+    .hero-secondary {
         font-size: 1.3rem;
         padding: 0 0;
     }
 
-    #home-hero-text>h1 {
+   .hero-main {
         padding: 0;
         margin-top: 275px;
     }
     
-    #home-hero-text>hr {
+    #home-hero-text>hr, #pro-con-hero-text>hr {
         
         margin: 0 auto;
         width: 50%;
@@ -634,13 +647,19 @@ font-size: 1.2rem;
 }
 #pro-con-container {
     flex-direction: column;
-    margin: 15px;
+    margin: 0;
     justify-content: space-around;
 }
 .pros-content, .cons-content {
     padding: 3%;
     margin: 5px auto;
 }
+#pro-con-hero-text {
+    width: 100%;
+    left:0;
+    bottom:0;
+    height:100%;
+    position: absolute;
 }
 
 /* Google Fonts */
