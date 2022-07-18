@@ -34,6 +34,9 @@ header {
 #logo img {
     width: 100%;
 }
+#topnav > img {
+    width: 100%;
+}
 
 #main-navigation {
     float: right;
@@ -51,7 +54,7 @@ header {
     color: #40b0df;
 }
 
-.active {
+.active-page {
     border-bottom: 4px dotted #eb4084;
 }
 
@@ -214,24 +217,21 @@ hr {
     text-align: left;
 }
 
-.circle-image {
-    float: left;
-    width: 35%
-}
 
 
-#about-me-header img {
+#about-me .circle-image {
     border-radius: 50%;
-    width: 80%;
-    text-align: center;
+    width: 30%;
+    padding: 25px;
+    float: left;
 }
 
-.about-me-header {
-    width: 60%;
-    float: right;
+#about-me .about-me-header {
+    margin-top: 70px;
 }
 
-.about-me-body {
+#about-me-body {
+    margin-top:50px;
     width: 100%;
     clear: both;
 }
@@ -445,6 +445,9 @@ textarea {
 
 /* max 696px */
 @media screen and (max-width: 696px) {
+    /* .topnav #myLinks {
+        display: none;
+      } */
     #home-hero {
         background: url(../images/hero-mobile2.jpg) no-repeat top center;
         height:550px;
