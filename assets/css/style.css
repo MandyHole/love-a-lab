@@ -360,6 +360,39 @@ textarea {
     border-bottom: 8px solid #eb4084
 }
 
+#pros-column {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+#cons-column {
+    width: 50%;
+    background-color: #f8cf40;
+    float: right;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.pros-content {
+    margin: 15px 30px;
+    background-color: #40b0df;
+    padding: 5% 5%;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.pros-content>h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.pros-content p,
+.pros-content li {
+    font-size: 1.1rem;
+}
+
+
+
 /* media queries */
 
 /* max 1260px */
