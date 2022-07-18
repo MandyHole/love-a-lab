@@ -58,6 +58,8 @@ header {
     border-bottom: 4px dotted #eb4084;
 }
 
+
+
 /* home hero styling */
 #home-hero {
     width: 100%;
@@ -445,9 +447,7 @@ textarea {
 
 /* max 696px */
 @media screen and (max-width: 696px) {
-    /* .topnav #myLinks {
-        display: none;
-      } */
+
     #home-hero {
         background: url(../images/hero-mobile2.jpg) no-repeat top center;
         height:550px;
@@ -575,6 +575,7 @@ font-size: 1.2rem;
     border: 2px solid  #eb4084;
     color: #0C1D1D;
 }
+
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Merriweather&display=swap');
 
