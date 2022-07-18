@@ -364,12 +364,14 @@ textarea {
     width: 50%;
     float: left;
     box-sizing: border-box;
+    margin-bottom: 15px;
 }
 #cons-column {
     width: 50%;
     float: right;
-    height: 500px;
     box-sizing: border-box;
+    margin-bottom: 15px;
+
 }
 
 .pros-content {
@@ -494,6 +496,27 @@ text-align: left;}
         bottom: 0;
         box-sizing: border-box;
     }
+    
+    /* pros/cons */
+    #pros-column {
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        margin: 15px auto;
+    }
+    #cons-column {
+        width: 100%;
+        float: right;
+        box-sizing: border-box;
+        margin: 15px auto;
+    }
+        
+        .pros-content, .cons-content {
+            margin: 15px auto;
+            padding: 5% 15%;
+            width: 90%;
+            box-sizing: border-box;
+        }
 
 }
 
@@ -626,6 +649,10 @@ font-size: 1.2rem;
     background-color: #f8cf40;
     border: 2px solid  #eb4084;
     color: #0C1D1D;
+}
+.pros-content, .cons-content {
+    padding: 5%;
+}
 }
 
 /* Google Fonts */
