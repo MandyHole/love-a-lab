@@ -414,8 +414,55 @@ text-align: left;}
     color: darkslat
 }
 
+/* tips.html styling */
+.tips-grid {
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: 
+    'tip-one tip-two tip-three'
+    'tip-image tip-image tip-image'
+    'tip-four tip-five tip-six';
+    margin: 15px;
+
+}
+#tip-one {
+    grid-area: tip-one;
+}
+#tip-two {
+    grid-area: tip-two;
+}
+#tip-three {
+    grid-area: tip-three;
+}
+#tip-image {
+    grid-area: tip-image;
+    height: 400px;
+    overflow: hidden;
+    margin: 15px auto;
+    width:100%;
+}
+#tip-four {
+    grid-area: tip-four;
+}
+#tip-five {
+    grid-area: tip-five;
+}
+#tip-four {
+    grid-area: tip-six;
+}
 
 
+.tip-style-one {
+    grid-auto-rows: 1fr;
+    background-color: #40b0df;
+    padding: 3%;
+}
+.tip-style-two {
+    grid-auto-rows: 1fr;
+    background-color: #f8cf40;
+    padding: 3%;
+}
 
 /* media queries */
 
