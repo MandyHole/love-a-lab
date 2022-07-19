@@ -417,13 +417,14 @@ text-align: left;}
 /* tips.html styling */
 .tips-grid {
     display: grid;
+    box-sizing: border-box;
     column-gap: 15px;
-    grid-template-columns: 33% 33% 33%;
     grid-template-areas: 
     'tip-one tip-two tip-three'
     'tip-image tip-image tip-image'
     'tip-four tip-five tip-six';
     margin: 15px;
+  
 
 }
 #tip-one {
