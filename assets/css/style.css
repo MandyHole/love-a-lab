@@ -405,6 +405,15 @@ text-align: left;}
    
 }
 
+#pro-con-footer-hero {
+    width: 100%;
+    height: 600px;
+    background: url(../images/pro-footer.jpg) no-repeat right center;
+    overflow: hidden;
+    position: relative;
+    color: darkslat
+}
+
 
 
 
@@ -660,6 +669,10 @@ font-size: 1.2rem;
     bottom:0;
     height:100%;
     position: absolute;
+}
+#pro-con-footer-hero {
+background: url(../images/pro-con-mobile-footer.jpg) no-repeat center center;
+}
 }
 
 /* Google Fonts */
