@@ -307,7 +307,6 @@ footer {
     background: url(../images/footer-image.jpg) no-repeat center center;
     overflow: hidden;
     position: relative;
-    color: darkslat
 }
 
 #footer-hero-text {
@@ -424,7 +423,6 @@ textarea {
     background: url(../images/pro-footer.jpg) no-repeat right center;
     overflow: hidden;
     position: relative;
-    color: darkslat
 }
 
 /* tips.html styling */
@@ -468,7 +466,7 @@ textarea {
     height: 600px;
     overflow: hidden;
     width: 100%;
-    background: url(../images/home-hero2.jpg) no-repeat right center;
+    background: url(../images/dog-mac.jpg) no-repeat center center;
 }
 
 #tip-four {
@@ -488,7 +486,7 @@ textarea {
     height: 600px;
     overflow: hidden;
     width: 100%;
-    background: url(../images/home-hero2.jpg) no-repeat right center;
+    background: url(../images/wren-beanbag.jpg) no-repeat center center;
     display: none;
 }
 
@@ -524,7 +522,14 @@ audio {
     display: block;
     margin: 0 auto;
 }
-
+#tips-footer-hero {
+    width: 100%;
+    height: 600px;
+    background: url(../images/brown-lab.jpg) no-repeat center center;
+    overflow: hidden;
+    position: relative;
+    color: darkslat
+}
 
 /* media queries */
 
