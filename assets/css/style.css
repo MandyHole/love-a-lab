@@ -428,6 +428,17 @@ textarea {
 }
 
 /* tips.html styling */
+
+#tip-hero {
+        width: 100%;
+        height: 600px;
+        background: url(../images/daisy-basket2.jpg) no-repeat top center;
+        overflow: hidden;
+        position: relative;
+        border-bottom: 8px solid #eb4084;
+}
+
+
 .tips-grid {
     display: grid;
     box-sizing: border-box;
@@ -803,6 +814,13 @@ audio {
 
     #pro-con-footer-hero {
         background: url(../images/pro-con-mobile-footer.jpg) no-repeat center center;
+    }
+
+    /* tips mobile styling */
+
+    #tip-hero {
+        background: url(../images/daisy-basket-mobile.jpg) no-repeat top center;
+
     }
     .tips-grid {
  
