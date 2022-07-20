@@ -800,6 +800,9 @@ textarea {
    
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
+    #tip-image, #tip-image-two {
+        height: 300px;
+    }
 
 
 /* Google Fonts */
