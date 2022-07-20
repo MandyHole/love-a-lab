@@ -11,6 +11,11 @@ p, li {
 a {
     text-decoration: none;
 }
+
+iframe {
+    display: block;
+    margin: 5px auto;
+}
 /* headings */
 
 .chewy-heading {
