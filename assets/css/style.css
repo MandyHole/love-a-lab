@@ -502,6 +502,10 @@ textarea {
     color: #fff;
 
 }
+audio {
+    display: block;
+    margin: 0 auto;
+}
 
 
 /* media queries */
