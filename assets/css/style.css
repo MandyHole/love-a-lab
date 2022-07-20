@@ -493,6 +493,29 @@ textarea {
     padding: 3%;
 }
 
+input,
+textarea {
+    
+
+}
+
+.info-button {
+    line-height: 2rem;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #eb4084;
+    padding: 5px 25px;
+}
+
+.info-button:hover{
+    background-color: #0C1D1D;
+    color: #fff;
+
+}
+
+
 /* media queries */
 
 /* max 1260px */
