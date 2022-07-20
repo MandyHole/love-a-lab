@@ -502,7 +502,7 @@ textarea {
 .info-button {
     line-height: 2rem;
     display: block;
-    margin: 0 auto;
+    margin: 15px auto;
     text-transform: uppercase;
     background-color: transparent;
     border: 2px solid #eb4084;
