@@ -34,7 +34,8 @@ header {
 #logo img {
     width: 100%;
 }
-#topnav > img {
+
+#topnav>img {
     width: 100%;
 }
 
@@ -69,6 +70,7 @@ header {
     position: relative;
     border-bottom: 8px solid #eb4084
 }
+
 #home-hero-text {
     background-color: rgba(64, 176, 223, .7);
     height: 200px;
@@ -232,7 +234,7 @@ hr {
 }
 
 #about-me-body {
-    margin-top:50px;
+    margin-top: 50px;
     width: 100%;
     clear: both;
 }
@@ -245,23 +247,24 @@ hr {
 #about-me-mobile {
     display: none;
 }
+
 #about-me-mobile h2 {
 
-    display:none;
+    display: none;
 }
 
 #about-me-mobile-header img {
-  
+
     display: none;
 }
 
 .about-me-mobile-header {
-    display:none;
+    display: none;
 }
 
 .about-me-mobile-body {
 
-    display:none;
+    display: none;
 }
 
 #about-me-mobile p {
@@ -339,7 +342,8 @@ textarea {
     font-size: smaller;
 }
 
-.submit-button:hover, {
+.submit-button:hover,
+    {
     background-color: #eb4084;
     border: 2px solid #f8cf40;
 
@@ -358,6 +362,7 @@ textarea {
     position: relative;
     border-bottom: 8px solid #eb4084
 }
+
 #pro-con-hero-text {
     background-color: rgba(64, 176, 223, .7);
     height: 200px;
@@ -369,29 +374,32 @@ textarea {
 
 
 #pro-con-container {
-    display:flex;
+    display: flex;
     width: 100%;
     align-items: stretch;
-    justify-content:space-around;
+    justify-content: space-around;
     flex-direction: row;
 }
 
 
 
-.pros-content, .cons-content {
+.pros-content,
+.cons-content {
     margin: 15px 15px 15px 30px;
     padding: 1% 3%;
     width: 90%;
     box-sizing: border-box;
 }
+
 .pros-content {
     background-color: #40b0df;
 }
 
-.pros-content>h3, 
+.pros-content>h3,
 .cons-content>h3 {
     font-size: 1.5rem;
-text-align: left;}
+    text-align: left;
+}
 
 .pros-content p,
 .pros-content li,
@@ -402,7 +410,7 @@ text-align: left;}
 
 .cons-content {
     background-color: #f8cf40;
-   
+
 }
 
 #pro-con-footer-hero {
@@ -419,39 +427,55 @@ text-align: left;}
     display: grid;
     box-sizing: border-box;
     column-gap: 15px;
-    grid-template-areas: 
-    'tip-one tip-two tip-three'
-    'tip-image tip-image tip-image'
-    'tip-four tip-five tip-six';
+    grid-template-areas:
+        'tip-one tip-two tip-three'
+        'tip-image tip-image tip-image'
+        'tip-four tip-five tip-six';
     margin: 15px;
-  
-
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
+
 #tip-one {
     grid-area: tip-one;
 }
+
 #tip-two {
     grid-area: tip-two;
 }
+
 #tip-three {
     grid-area: tip-three;
 }
+
 #tip-image {
     grid-area: tip-image;
     height: 600px;
     overflow: hidden;
     margin: 15px auto;
-    width:100%;
-    background: url(../images/home-hero2.jpg) alt="yellow lab puppy sitting by daisies" no-repeat right center;
+    width: 100%;
+    background: url(../images/home-hero2.jpg) no-repeat right center;
 }
+
 #tip-four {
     grid-area: tip-four;
 }
+
 #tip-five {
     grid-area: tip-five;
 }
-#tip-four {
+
+#tip-six {
     grid-area: tip-six;
+}
+
+#tip-image-two {
+    grid-area: tip-image-two;
+    height: 600px;
+    overflow: hidden;
+    margin: 15px auto;
+    width: 100%;
+    background: url(../images/home-hero2.jpg) no-repeat right center;
+    display: none;
 }
 
 
@@ -460,6 +484,7 @@ text-align: left;}
     background-color: #40b0df;
     padding: 3%;
 }
+
 .tip-style-two {
     grid-auto-rows: 1fr;
     background-color: #f8cf40;
@@ -483,6 +508,23 @@ text-align: left;}
         height: 1445px;
         line-height: 1.4rem;
     }
+
+    .tips-grid {
+        
+ 
+        grid-template-areas:
+            'tip-one tip-two'
+            'tip-image tip-image' 
+            'tip-three tip-four'
+            'tip-image-two tip-image-two'
+            'tip-five tip-six';
+   
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    #tip-image-two {
+        display: block;
+    }
+
 }
 
 /* max 1107 */
@@ -490,7 +532,7 @@ text-align: left;}
     #essentials-intro {
         width: 50%
     }
-    
+
     #left-essentials {
         width: 50%;
     }
@@ -532,6 +574,7 @@ text-align: left;}
         text-align: center;
 
     }
+
     .essential-image>img,
     .essential-image-left>img {
         width: 300px;
@@ -558,7 +601,7 @@ text-align: left;}
         bottom: 0;
         box-sizing: border-box;
     }
-    
+
     /* pros/cons */
     #pro-con-hero-text {
         left: 0;
@@ -566,7 +609,8 @@ text-align: left;}
         height: 168px;
     }
 
-    .pros-content, .cons-content {
+    .pros-content,
+    .cons-content {
         padding: 1% 2%;
         margin: 5px;
     }
@@ -578,169 +622,189 @@ text-align: left;}
 
     #home-hero {
         background: url(../images/hero-mobile2.jpg) no-repeat top center;
-        height:550px;
+        height: 550px;
     }
+
     #home-hero-text {
         width: 100%;
-        left:0;
-        bottom:0;
-        height:100%;
+        left: 0;
+        bottom: 0;
+        height: 100%;
         position: absolute;
     }
+
     .hero-secondary {
         font-size: 1.3rem;
         padding: 0 0;
     }
 
-   .hero-main {
+    .hero-main {
         padding: 0;
         margin-top: 275px;
     }
-    
-    #home-hero-text>hr, #pro-con-hero-text>hr {
-        
+
+    #home-hero-text>hr,
+    #pro-con-hero-text>hr {
+
         margin: 0 auto;
         width: 50%;
 
-    
+
     }
-    
+
     #essentials-intro {
         width: 100%
     }
+
     #left-essentials {
         width: 100%;
     }
-    .box-style-left, .box-style-right {
-        height:100%
+
+    .box-style-left,
+    .box-style-right {
+        height: 100%
     }
 
     #right-essentials {
         width: 100%;
         padding-top: 10px;
     }
-  
+
     #about-me {
-        display:none;
+        display: none;
     }
 
-#about-me-mobile {
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    clear: both;
-    background-color: #40b0df;
-    padding: 10px 0;
-    box-sizing: border-box;
-    line-height: 1.5rem;
-    margin-top:10px
-}
+    #about-me-mobile {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        clear: both;
+        background-color: #40b0df;
+        padding: 10px 0;
+        box-sizing: border-box;
+        line-height: 1.5rem;
+        margin-top: 10px
+    }
 
-#about-me-mobile h2 {
-    text-align: left;
-    display:inline-block;
-}
-#about-me-mobile hr {
-margin: 3px auto 1px auto;
-}
+    #about-me-mobile h2 {
+        text-align: left;
+        display: inline-block;
+    }
 
-#about-me-mobile-header img {
-    border-radius: 50%;
-    width: 30%;
-    text-align: center;
-    display: block;
-    float: none;
-    clear:both;
-    margin: 0 auto;
-    padding: 15px;
-}
+    #about-me-mobile hr {
+        margin: 3px auto 1px auto;
+    }
 
-.about-me-mobile-header {
-    width: 100%;
-    display:inline-block;
-    text-align: center;
-}
+    #about-me-mobile-header img {
+        border-radius: 50%;
+        width: 30%;
+        text-align: center;
+        display: block;
+        float: none;
+        clear: both;
+        margin: 0 auto;
+        padding: 15px;
+    }
 
-.about-me-mobile-body {
-    width: 90%;
-    clear: both;
-    padding: 0 5%;
-    display:inline-block;
-}
+    .about-me-mobile-header {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
 
-#about-me-mobile p {
-    font-size: 1.1rem;
-    display: inline-block;
-}
-.media-filler {
-    display: none;
-}
-#footer-hero-text {
-    width:100%;
-    bottom:0;
-    padding-top: 15%;
-}
-.circle-image-mobile {
-    text-align: center;
-    
-}
-#more {
-    display: none;
-}
-#myBtn {
-    background-color: transparent;
-border: 2px solid #f8cf40;
-text-transform: uppercase;
-color: #0C1D1D;
-padding: .5rem 1.3rem;
-display: block;
-margin: 0 auto;
-font-size: 1.2rem;
+    .about-me-mobile-body {
+        width: 90%;
+        clear: both;
+        padding: 0 5%;
+        display: inline-block;
+    }
 
-}
-#myBtn:hover {
-    background-color: #f8cf40;
-    border: 2px solid  #eb4084;
-    color: #0C1D1D;
-}
-#pro-con-container {
-    flex-direction: column;
-    margin: 0;
-    justify-content: space-around;
-}
-.pros-content, .cons-content {
-    padding: 3%;
-    margin: 5px auto;
-}
-#pro-con-hero-text {
-    width: 100%;
-    left:0;
-    bottom:0;
-    height:100%;
-    position: absolute;
-}
-#pro-con-footer-hero {
-background: url(../images/pro-con-mobile-footer.jpg) no-repeat center center;
-}
+    #about-me-mobile p {
+        font-size: 1.1rem;
+        display: inline-block;
+    }
+
+    .media-filler {
+        display: none;
+    }
+
+    #footer-hero-text {
+        width: 100%;
+        bottom: 0;
+        padding-top: 15%;
+    }
+
+    .circle-image-mobile {
+        text-align: center;
+
+    }
+
+    #more {
+        display: none;
+    }
+
+    #myBtn {
+        background-color: transparent;
+        border: 2px solid #f8cf40;
+        text-transform: uppercase;
+        color: #0C1D1D;
+        padding: .5rem 1.3rem;
+        display: block;
+        margin: 0 auto;
+        font-size: 1.2rem;
+
+    }
+
+    #myBtn:hover {
+        background-color: #f8cf40;
+        border: 2px solid #eb4084;
+        color: #0C1D1D;
+    }
+
+    #pro-con-container {
+        flex-direction: column;
+        margin: 0;
+        justify-content: space-around;
+    }
+
+    .pros-content,
+    .cons-content {
+        padding: 3%;
+        margin: 5px auto;
+    }
+
+    #pro-con-hero-text {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        position: absolute;
+    }
+
+    #pro-con-footer-hero {
+        background: url(../images/pro-con-mobile-footer.jpg) no-repeat center center;
+    }
 }
 
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Merriweather&display=swap');
 
-<script>
-function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
-  
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read more";
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read less";
-      moreText.style.display = "inline";
+<script>function myFunction() {
+    var dots=document.getElementById("dots");
+    var moreText=document.getElementById("more");
+    var btnText=document.getElementById("myBtn");
+
+    if (dots.style.display==="none") {
+        dots.style.display="inline";
+        btnText.innerHTML="Read more";
+        moreText.style.display="none";
     }
-  }
-  </script>
+
+    else {
+        dots.style.display="none";
+        btnText.innerHTML="Read less";
+        moreText.style.display="inline";
+    }
+}
+
+</script>
