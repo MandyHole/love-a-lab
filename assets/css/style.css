@@ -53,8 +53,6 @@ hr {
 
 
 /* header elements */
-
-/* hamburger styling */
 nav>ul {
     list-style: none;
 }
@@ -211,48 +209,7 @@ nav>ul {
 background-color: #fff;
     }}
 
-
-/* header {
-    position: fixed;
-    z-index: 3;
-    background-color: #fff;
-    width: 100%;
-}
-
-#logo {
-    width: 200px;
-    margin: 10px 30px;
-    float: left;
-}
-
-#logo img {
-    width: 100%;
-}
-
-#topnav>img {
-    width: 100%;
-}
-
-#main-navigation {
-    float: right;
-    margin-top: 20px;
-}
-
-#main-navigation li {
-    display: inline;
-}
-
-#main-navigation a {
-    font-size: 1.5rem;
-    margin-right: 30px;
-    color: #40b0df;
-}
-
-.active-page {
-    border-bottom: 4px dotted #eb4084;
-} */
-
-
+    /* index.html styles */
 
 /* home hero styling */
 #home-hero {
@@ -276,6 +233,8 @@ background-color: #fff;
 
 
 /* essentials section styling */
+
+/* grid elements */
 #essential-qualifications {
     display: grid;
     margin: 15px 30px 0 30px;
@@ -339,7 +298,7 @@ background-color: #fff;
 }
 
 
-/* left essential column */
+/* essential columns */
 
 
 .box-style-left {
@@ -358,11 +317,6 @@ background-color: #fff;
     width: 100%;
 }
 
-
-/* right essential column */
-
-
-
 .box-style-right {
 
     background-color: #f8cf40;
@@ -377,14 +331,9 @@ background-color: #fff;
 }
 
 /* aside area */
-
-
-
 #about-me h2 {
     text-align: left;
 }
-
-
 
 #about-me .circle-image {
     border-radius: 50%;
