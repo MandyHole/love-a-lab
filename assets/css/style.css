@@ -114,7 +114,6 @@ header {
     display: grid;
     margin: 15px 30px 0 30px;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    /* grid-template-columns: repeat(3, [col-start] 1fr); */
     gap: 15px;
     grid-template-areas:
     "essentials-intro essentials-intro about-me"
@@ -122,8 +121,7 @@ header {
     "left-image time about-me"
     "commitment right-image-two about-me"
     ;
-    justify-items: stretch;
-    align-items: start;
+    align-items: stretch;
 }
 #essentials-intro {
     padding: 1% 3%;
@@ -229,41 +227,6 @@ width: 100%;
     width: 100%;
     clear: both;
 }
-
-
-
-/* About-me-mobile */
-#about-me-mobile {
-    display: none;
-}
-
-#about-me-mobile h2 {
-
-    display: none;
-}
-
-#about-me-mobile-header img {
-
-    display: none;
-}
-
-.about-me-mobile-header {
-    display: none;
-}
-
-.about-me-mobile-body {
-
-    display: none;
-}
-
-#about-me-mobile p {
-    display: none;
-}
-
-.media-filler {
-    display: none;
-}
-
 
 /* section divider */
 .divider {
@@ -515,19 +478,16 @@ audio {
 
 /* max 1260px */
 @media screen and (max-width: 1260px) {
-
-    #footer-hero-text,
-    .box-style-right,
-    .box-style-left,
-    .essential-image>img,
-    .essential-image-left>img {
-        width: 350px;
-    }
-
-    #about-me {
-        line-height: 1.4rem;
-        height: 100%;
-    }
+#essential-qualifications {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+    "essentials-intro about-me"
+    "financial about-me"
+    "time about-me"
+    "commitment about-me"
+    "left-image right-image-two"
+    ;
+}
 
     .tips-grid {
         
@@ -549,66 +509,7 @@ audio {
 
 /* max 1107 */
 @media screen and (max-width: 1107px) {
-    #essentials-intro {
-        width: 50%
-    }
-
-    #left-essentials {
-        width: 50%;
-    }
-
-    #right-essentials {
-        width: 50%;
-        padding-top: 10px;
-        float: left;
-    }
-
-    #about-me {
-        width: 50%;
-        height: 2145px;
-    }
-
-    .box-style-left {
-        margin: 0 auto;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .box-style-right {
-        margin: 10px auto;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-
-    .essential-image-left {
-        margin: 0 auto;
-        text-align: center;
-        padding: 10px 0;
-    }
-
-    .essential-image {
-        padding: 3px 0;
-        text-align: center;
-
-    }
-
-    .essential-image>img,
-    .essential-image-left>img {
-        width: 300px;
-        height: 300px;
-    }
-
-
-    .media-filler {
-        display: flex;
-        border-radius: 0%;
-        width: 100%;
-    }
-
-    .hidden-image {
-        display: none;
-    }
+ 
 
     #footer-hero-text {
         height: 600px;
@@ -669,81 +570,7 @@ audio {
 
     }
 
-    #essentials-intro {
-        width: 100%
-    }
-
-    #left-essentials {
-        width: 100%;
-    }
-
-    .box-style-left,
-    .box-style-right {
-        height: 100%
-    }
-
-    #right-essentials {
-        width: 100%;
-        padding-top: 10px;
-    }
-
-    #about-me {
-        display: none;
-    }
-
-    #about-me-mobile {
-        width: 100%;
-        height: 100%;
-        display: inline-block;
-        clear: both;
-        background-color: #40b0df;
-        padding: 10px 0;
-        line-height: 1.5rem;
-        margin-top: 10px
-    }
-
-    #about-me-mobile h2 {
-        text-align: left;
-        display: inline-block;
-    }
-
-    #about-me-mobile hr {
-        margin: 3px auto 1px auto;
-    }
-
-    #about-me-mobile-header img {
-        border-radius: 50%;
-        width: 30%;
-        text-align: center;
-        display: block;
-        float: none;
-        clear: both;
-        margin: 0 auto;
-        padding: 15px;
-    }
-
-    .about-me-mobile-header {
-        width: 100%;
-        display: inline-block;
-        text-align: center;
-    }
-
-    .about-me-mobile-body {
-        width: 90%;
-        clear: both;
-        padding: 0 5%;
-        display: inline-block;
-    }
-
-    #about-me-mobile p {
-        font-size: 1.1rem;
-        display: inline-block;
-    }
-
-    .media-filler {
-        display: none;
-    }
-
+   
     #footer-hero-text {
         width: 100%;
         bottom: 0;
