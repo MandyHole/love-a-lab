@@ -22,14 +22,15 @@
                 alt="Text 'Love a Labrador?' with a pawprint used for an 'o'"></a>
 
         <!-- Hamburger icon -->
-        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <input class="side-menu" type="checkbox" id="side-menu" />
         <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
 
         <!-- Menu -->
         <nav class="nav">
             <ul class="menu">
-                <li><a href="index.html" aria-label="Go to home page" class="active-page">Home</a></li>
-                <li><a href="pros-cons.html" aria-label="Read some pros and cons">Pros & Cons</a></li>
+                <li><a href="index.html" aria-label="Go to home page">Home</a></li>
+                <li><a href="pros-cons.html" aria-label="Read some pros and cons" class="active-page">Pros & Cons</a>
+                </li>
                 <li><a href="tips.html" aria-label="Read some tips">Tips</a></li>
             </ul>
         </nav>
@@ -117,33 +118,35 @@
 
 
     </main>
-    <footer id="pro-con-footer-hero">
+    <footer>
+        <div id="pro-con-footer-hero">
 
-        <div id="footer-hero-text">
-            <h1 class="chewy-heading">Ask a question</h1>
-            <hr>
-            <form method="post" action="https://formdump.codeinstitute.net/">
-                <div>
-                    <label for="fname" class="input-line">Your First Name*</label>
-                    <input type="text" id="fname" name="first-name" required>
-                </div>
-                <div>
-                    <label for="lname" class="input-line">Your Surname*</label>
-                    <input type="text" id="lname" name="last-name">
-                </div>
-                <div><label for="email" class="input-line">Your Email*</label>
-                    <input type="email" id="email" value="email" name="email" required>
-                </div>
-                <div>
-                    <label for="message" class="input-line">Your Question*</label>
-                    <textarea id="message" value="message" name="message" required></textarea>
-                </div>
-                <input type="submit" value="Ask away!" class="input-line submit-button">
+            <div id="footer-hero-text">
+                <h1 class="chewy-heading">Ask a question</h1>
+                <hr>
+                <form method="post" action="https://formdump.codeinstitute.net/">
+                    <div>
+                        <label for="fname" class="input-line">Your First Name*</label>
+                        <input type="text" id="fname" name="first-name" required>
+                    </div>
+                    <div>
+                        <label for="lname" class="input-line">Your Surname*</label>
+                        <input type="text" id="lname" name="last-name">
+                    </div>
+                    <div><label for="email" class="input-line">Your Email*</label>
+                        <input type="email" id="email" value="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message" class="input-line">Your Question*</label>
+                        <textarea id="message" value="message" name="message" required></textarea>
+                    </div>
+                    <input type="submit" value="Ask away!" class="input-line submit-button">
 
-            </form>
-            <p class="small">* required field</p>
+                </form>
+                <p class="small">* required field</p>
+            </div>
         </div>
-
+        <div class="copyright"><i class="fa-solid fa-copyright"></i> Designs of Mendip 2022</div>
 
     </footer>
 
