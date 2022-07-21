@@ -90,6 +90,7 @@ nav>ul {
     position: fixed;
     overflow: hidden;
     background-color: #fff;
+    z-index: 10;
 
 }
 
