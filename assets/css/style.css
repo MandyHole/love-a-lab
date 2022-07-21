@@ -650,7 +650,7 @@ audio {
 #tips-footer-hero {
     width: 100%;
     height: 600px;
-    background: url(../images/brown-lab.jpg) no-repeat center center;
+    background: url(../images/brown-lab-right.jpg) no-repeat right center;
     overflow: hidden;
     position: relative;
     color: darkslat
@@ -721,7 +721,11 @@ audio {
         margin: 5px;
     }
 }
-
+/* max 800px */
+@media screen and (max-width: 800px) {
+#tips-footer-hero {
+    background: url(../images/brown-lab-mobile.jpg) no-repeat center center;
+}}
 
 /* max 696px */
 @media screen and (max-width: 696px) {
@@ -859,7 +863,10 @@ audio {
 
     #tip-image,
     #tip-image-two {
-        height: 300px;
+        height: 400px;
+    }
+    #tip-image-two {
+        background: url(../images/wren-beanbag-mobile.jpg) no-repeat center center;
     }
 
 }
