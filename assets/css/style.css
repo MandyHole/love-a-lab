@@ -123,6 +123,7 @@ header {
     "commitment right-image-two about-me"
     ;
     justify-items: stretch;
+    align-items: start;
 }
 #essentials-intro {
     padding: 1% 3%;
@@ -139,6 +140,8 @@ header {
 }
 #left-image  {
     grid-area: left-image;
+    background: url(../images/essential-3.jpg);
+    width: 100%;
 }
 #commitment {
     grid-area: commitment;
