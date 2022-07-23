@@ -198,36 +198,6 @@ nav>ul {
     top: 0;
 }
 
-@media (min-width: 768px) {
-    .nav {
-        max-height: none;
-        top: 0;
-        position: relative;
-        float: right;
-        width: fit-content;
-    }
-
-    .menu li {
-        float: left;
-    }
-
-    .menu a:hover {
-        background-color: transparent;
-        color: #f8cf40;
-
-    }
-
-    .hamb {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-    .nav {
-        background-color: #fff;
-    }
-}
-
 /* form */
 input,
 textarea {
@@ -660,6 +630,36 @@ audio {
 @media screen and (max-width: 800px) {
     #tips-footer-hero {
         background: url(../images/brown-lab-mobile.jpg) no-repeat center center;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav {
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+    }
+
+    .menu li {
+        float: left;
+    }
+
+    .menu a:hover {
+        background-color: transparent;
+        color: #f8cf40;
+
+    }
+
+    .hamb {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        background-color: #fff;
     }
 }
 
