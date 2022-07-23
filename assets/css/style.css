@@ -629,7 +629,7 @@ audio {
 /* hamburger menu style min-width */
 @media (min-width: 696px) {
     .nav {
-        max-height: none;
+        max-height: 85px;
         top: 0;
         position: relative;
         float: right;

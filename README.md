@@ -1,108 +1,152 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Love a Labrador?
 
-Welcome MandyHole,
+## Overview of website
+This site is aimed at anyone who is unsure whether a Labrador Retriever is right for them.  According to <a href="https://www.devonlive.com/whats-on/family-kids/labrador-uks-most-popular-dog-6842152" target="_blank" rel="external">DevonLive</a> “The Labrador retriever has been the UK’s favourite pedigree dog breed for years, and there was a 54% increase in their numbers from 2020 to 2021.”  . There is a danger in equating popularity with suitability, and just because they are renowned as good family dogs doesn’t mean they aren’t hard work and a big commitment. According to <a href="https://www.bbc.co.uk/news/uk-58518892" target="_blank" rel="external">BBC News</a>, in September 2021, “The Dogs Trust said it expected to see an increase in the number of dogs it receives in the months to come, describing it as a "looming crisis". 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This ‘Love a Labrador?’ website helps potential owners assess whether or not they should go ahead by letting them know: the essential qualifications they need, the pros and cons of having a Labrador vs other breeds (or not having a dog at all) and tips on how to be a successful Labrador owner with a warning of what happens if you don’t put in the time to train a Labrador properly.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+My aim is to have fewer Labradors:
+<ul>
+<li>being rehomed </li>
+<li>not have the training they need to live up to their potential.</li>
+</ul>
 
-## Gitpod Reminders
+<hr>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+<br>
 
-A blue button should appear to click: _Make Public_,
+### Existing Features
 
-Another blue button should appear to click: _Open Browser_.
+<br>
+<p><strong>Favicon:</strong> The blue pawprint is lifted from the logo – it is designed to be clear and easily recognisable in a browser bar if people move to another page as well as provide site continuity.
+</p>
+<p><strong>Logo:</strong> The logo adds continuity through the site as its appearance matches the heading fonts and colours used throughout the website. The pawprint in the logo matches the favicon.
+</p>
+<p><strong>Menu:</strong> The full responsive menu guides people easily through the three pages of the site: Home, Pros & Cons and Tips. For mobiles, the menu becomes the widely recognised ‘hamburger menu” matching the colour scheme of the site. It’s fixed to the top of the page so easily accessible wherever people are at on the site.
+</p>
+<p><strong>Hero Headers:</strong> These are designed to engage the viewer when they first come onto each page with animation, a cute photo of a puppy and a clear indication of the information found on the page.
+</p>
+<p><strong>Essential Qualifications:</strong> These provide the bare minimum requirements for any responsible dog owner so that is why they are given such prominence on the website. They are broken down into three bite-size chunks to make them easier to read.
+</p>
+<p><strong>About Me:</strong>This section is meant to help people identify with the website author and know that they are not alone as well as give them confidence that if they are willing to commit to doing it properly, Labradors are a great option – even for people who aren’t naturally drawn to animals. As it looks long on the mobile version and isn’t essential, there is a “Read More” option for smaller viewports. As this is not key information, it is given a semantic tag of an aside.
+</p>
+<p><strong>Ask a question:</strong> This is a friendly looking form with an inviting ‘Ask Away’ submit button to encourage people to get in touch if they are unsure of anything and want some advice. 
+</p>
+<p><strong>Pros and Cons:</strong> This is to help people assess the Pros and Cons of having a Labrador versus having other breeds (or no dog at all). I knew someone who purchased a Labrador to help her feel safe and be a ‘guard dog’ of sorts: this is completely the wrote type of dog for that! She ultimately gave her Labrador to a friend; it is happy and well cared for, but it is this type of misconception that this site hopes to address.
+</p>
+<p>This section is placed second because it is assuming that people meet the ‘Essential Qualifications’ for having a dog and are now determining if this breed (or any dog) is really right for them.
+</p>
+<p><strong>Tips:</strong> This section came last as it is assuming that people have ultimately come to the conclusion that Labradors are potentially right for them. However, the site also wants to address that to be a responsible dog owner requires training (so that they won’t decide to give up the dog later due to behaviour issues). It is my firm belief that early and consistent training is key to having a happy, healthy and successful dog!
+</p>
+<br>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Features left to implement
 
-A blue button should appear to click: _Make Public_,
+<p><strong>Blog/Message Board:</strong> In the future, I would add a page with a blog where I could write updates and post photos about my training journey with my Labrador puppy Daisy and allow others to submit their stories/photos for inclusion. </p>
 
-Another blue button should appear to click: _Open Browser_.
+<hr>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Testing
 
-To log into the Heroku toolbelt CLI:
+### Layout:
+I originally designed the homepage using the theories taught in the course (using floats, display: none, column widths/heights). With a rather complicated design of double column intro and an aside, it was very complicated. To have my content and photos line up, I had to give each div an arbitrary size, which meant that, depending on media widths, I would have had massive gaps between my columns or would face an unmanageable number of breakpoints. Also, I was having to have extra filler images appear or be hidden depending on how my content was split so there wasn’t a massive gap. I also would have to check the height for various breakpoints to make sure the columns were the same size. Finally, as my aside appeared in the wrong place (under the qualifications intro) so I then had to hide/show the original/duplicate depending on the media width. It was all very messy and complicated, and I knew there had to be a better way! 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Upon recommendation from my Mentor, I tried flex-box for my pros/cons page. Researching that also let me to grid css, which I implemented on my tips page. Both were remarkably easier to use, and my gaps between both pages were consistent and the pages looked much more professional. Upon reflection, I decided to redo my homepage with grid to ensure consistency through the site. Unfortunately, doing it retrospectively caused a lot more effort and took a lot of experimentation to get it right, removing the extra divs, images and formatting that were no longer required. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Hamburger menu:
 
-------
+I discovered that this would not work properly if the user had already scrolled down the page. Working with my mentor, we discovered the heading needed to be fixed as opposed to sticky.
 
-## Release History
+### Media queries:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+To make the site responsive, I went from three to two columns on the home/Tips pages for a smaller screen/tablet, and then down again to a one column layout for mobile. For the pros/cons page, it went from a two column to a one column layout. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+I also had to add alternate mobile images for some backgrounds to ensure that the dog’s face was shown.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Consistency:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+As I reviewed the site, I realised that there was a bit of inconsistency in various elements across the site, which I sought to address by changing the inconsistent elements to be stylised by classes which I then implemented throughout the site, removing only elements that had to change (e.g., the background image on the hero) to be used in specific ids/classes. I used this approach for the headings, buttons, top hero area and form areas.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Colour contrast:
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+When selecting colours, I utilised https://webaim.org/resources/contrastchecker/ to ensure the background colours I used were suitable for dark colour text at a normal size. I then found the lightest black shade I could that still met AAA standards for normal text to use as my main font colour. I put the blue/yellow combination into a colour wheel to find a complementary third colour: a shade of magenta pink. As it did not meet standards, I used it solely for decoration.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Validator Testing
+•	HTML: No errors were returned when passing through the official W3C validator
+•	CSS: No errors were found when passing through the official (Jigsaw) validator
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Unfixed Bugs
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The form submissions are currently set up to go to a form dump area on the Code Institute website. Ideally, these would be sent to my email so that I could respond accordingly, have reCAPTCHA functionality to weed out spam and an auto response/message so that the user knows that the form was successfully submitted. They were not fixed as I do not have a database capable of collecting data at the moment. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+I sometimes found myself on a mission and would forget to add/commit as often as I probably should have, and then tried to remember what it was I had done! I also sometimes thought I’d committed something and realised a typo of some sort meant it didn’t go through, and I’d often have to kill of a terminal and restart and then have a commit taking both messages into account. Unfortunately, this is not something that can be fixed retrospectively.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<hr>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Deployment
+•	The site was deployed to GitHub pages. The steps to deploy are as follows:
+o	In the GitHub repository, navigate to the Settings tab
+o	From the source section drop-down menu, select the Master Branch
+o	Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - xxxxxx
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<hr>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Credits:
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Content
 
-------
+The content for this website drew on my personal experience of owning a Labrador Retriever and my training from trainers through the charity Dogs for Good. However, I included several external links to reputable sources for more information that I think every potential owner should know, including:
 
-## FAQ about the uptime script
+<ul>
+<li><a href="https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/could-you-spot-a-puppy-farm" target="_blank" rel="external">PDSA</a></li>
+<li><a href="https://www.thekennelclub.org.uk/health-and-dog-care/health/health-and-care/a-z-of-health-and-care-issues" target="_blank" rel="external">The Kennel Club</a></li>
+<li><a href="https://www.dogstrust.org.uk/help-advice/factsheets-downloads/basicdogtrainingfactsheetnov13.pdf" target="_blank" rel="external">The Dogs Trust</a></li>
+</ul>
 
-**Why have you added this script?**
+iframe code for <em>Marley and Me</em> Trailer: <a href="https://www.youtube.com/watch?v=0UMMGNxg1Lg" target="_blank" rel="external">YouTube</a>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<hr>
 
-**How will this affect me?**
+### Code
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Hamburger style menu: <a href="https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/" target="_blank" rel="external">Log Rocket</a>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Read More/ Read Less Button (used in Homepage About Me aside in mobile view): <a href="https://www.w3schools.com/howto/howto_js_read_more.asp" target="_blank" rel="external">W3Schools</a>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Flexbox: 
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG" target="_blank" rel="external">YouTube</a></li>
+<li><a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank" rel="external">W3Schools</a></li>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">CSS Tricks</a></li>
+</ul>
 
-**So….?**
+CSS Grids: 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+<p>General concept for using Grids: <a href="https://www.w3schools.com/cssref/pr_grid.asp" target="_blank" rel="external">W3Schools</a></p>
+<p>Code for creating equal-width columns in CSS grid: <a href="https://css-tricks.com/equal-width-columns-in-css-grid-are-kinda-weird/" target="_blank" rel="external">CSS Tricks</a></p>
 
-**Can I opt out?**
+Hero Animation (Page Headers): Code Institute Love Running source code
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Media
 
-**Anything more?**
+Images on Tips page: <a href="https://www.pexels.com/" target="_blank" rel="external">Pexels</a>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Platform to create an ogg version of my mp4 file: <a href="https://convertio.co/" target="_blank" rel="external">Convertio</a>
 
----
+Chewy and Merriweather fonts used throughout the site: <a href="https://fonts.google.com" target="_blank" rel="external">Google Fonts</a>
 
-Happy coding!
+Icons used for my favicon, logo, homepage boxes and Pros/Cons boxes: <a href="https://fontawesome.com" target="_blank" rel="external">Font Awesome</a>
+
+
+Platform for creating a Favicon image: <a href="https://realfavicongenerator.net/" target="_blank" rel="external">Favicon Generator</a>
+
+
+Platform for resizing images: Adobe PhotoShop
+
+Platform for creating logo: Adobe Illustrator
+
+Application to create audio version only of my movie of a dog making snuffling sounds: Quicktime
