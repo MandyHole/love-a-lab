@@ -16,7 +16,6 @@ a {
     text-decoration: none;
 }
 
-
 iframe {
     display: block;
     margin: 5px auto;
@@ -62,17 +61,9 @@ hr {
     margin: 15px auto;
     line-height: 2rem;
     cursor: pointer;
-
-    /* background-color: #1c87c9;
-    border: none;
-    color: white;
-    padding: 20px 34px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer; */
+}
+.button:hover {
+    background-color: transparent;
 }
 
 .yellowBtn {
@@ -81,34 +72,6 @@ hr {
 .blueBtn {
     background-color: #40b0df;
 }
-.button:hover {
-    background-color: transparent;
-}
-
-/* .submit-button:hover {
-    background-color: transparent;
-} */
-
-/* .submit-button {
-    text-transform: uppercase;
-    cursor: pointer;
-    border: 2px solid #eb4084;
-    padding: 5px 25px;
-    margin: 15px auto;
-    line-height: 2rem;
-} */
-
-.info-button {
-    display: block;
-    text-align: center;
-    width: fit-content;
-    color:#0C1D1D;
-}
-
-/* .info-button:hover {
-    background-color: #0C1D1D;
-    color: #fff;
-} */
 
 /* header elements */
 nav>ul {
@@ -524,7 +487,6 @@ textarea {
     text-align: left;
 }
 
-
 .cons-content {
     background-color: #f8cf40;
     margin-right: 30px;
@@ -549,7 +511,6 @@ textarea {
     position: relative;
     border-bottom: 8px solid #eb4084;
 }
-
 
 .tips-grid {
     display: grid;
@@ -615,6 +576,12 @@ textarea {
     grid-auto-rows: 1fr;
     background-color: #f8cf40;
     padding: 3%;
+}
+
+.info-button {
+    display: block;
+    width: fit-content;
+    color:#0C1D1D;
 }
 
 audio {
