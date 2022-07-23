@@ -442,7 +442,7 @@ textarea {
 }
 
 .submit-button:hover {
-    background-color: #eb4084;
+    background-color: transparent;
     border: 2px solid #f8cf40;
 
 }
