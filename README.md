@@ -31,10 +31,14 @@ My aim is to have fewer Labradors:
 <p><img src="assets/images/readme-menu.jpg" alt="menu at 696px, 697px, and expanded hamburger menu"></p> 
 <p><strong>Hero Headers:</strong> These are designed to engage the viewer when they first come onto each page with animation, a cute photo of a puppy and a clear indication of the information found on the page.
 </p>
+<p><img src="assets/images/readme-hero.jpg" alt="Hero appearance at two different widths (mobile and tablet)"></p> 
 <p><strong>Essential Qualifications:</strong> These provide the bare minimum requirements for any responsible dog owner so that is why they are given such prominence on the website. They are broken down into three bite-size chunks to make them easier to read.
 </p>
-<p><strong>About Me:</strong>This section is meant to help people identify with the website author and know that they are not alone as well as give them confidence that if they are willing to commit to doing it properly, Labradors are a great option – even for people who aren’t naturally drawn to animals. As it looks long on the mobile version and isn’t essential, there is a “Read More” option for smaller viewports. As this is not key information, it is given a semantic tag of an aside.
+<p><img src="assets/images/readme-essential.jpg" alt="Essential info at three different widths"></p> 
+
+<p><strong>About Me:</strong>This section is meant to help people identify with the website author and know that they are not alone as well as give them confidence that if they are willing to commit to doing it properly, Labradors are a great option – even for people who aren’t naturally drawn to animals. As it looks long on the mobile version and isn’t essential, there is a “Read More” option for smaller viewports. As this is not key information, it is given a semantic tag of an aside.<img src="assets/images/readme-aboutme.png" alt="About Me section in mobile form with 'read more' button" width="50%">
 </p>
+<p></p> 
 <p><strong>Ask a question:</strong> This is a friendly looking form with an inviting ‘Ask Away’ submit button to encourage people to get in touch if they are unsure of anything and want some advice. 
 </p>
 <p><strong>Pros and Cons:</strong> This is to help people assess the Pros and Cons of having a Labrador versus having other breeds (or no dog at all). I knew someone who purchased a Labrador to help her feel safe and be a ‘guard dog’ of sorts: this is completely the wrote type of dog for that! She ultimately gave her Labrador to a friend; it is happy and well cared for, but it is this type of misconception that this site hopes to address.
