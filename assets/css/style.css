@@ -479,6 +479,7 @@ textarea {
     border-bottom: 8px solid #eb4084;
 }
 
+    /* tip grid and core elements */
 .tips-grid {
     display: grid;
     box-sizing: border-box;
@@ -532,6 +533,8 @@ textarea {
     display: none;
 }
 
+    /* tip box styles */
+
 .tip-style-one {
     grid-auto-rows: 1fr;
     background-color: #40b0df;
@@ -544,6 +547,7 @@ textarea {
     padding: 3%;
 }
 
+    /* tip box element styles */
 .info-button {
     display: block;
     width: fit-content;
@@ -555,6 +559,7 @@ audio {
     margin: 0 auto;
 }
 
+ /* tip page footer */
 #tips-footer-hero {
     background: url(../images/brown-lab-right.jpg) no-repeat right center;
 }
@@ -654,10 +659,12 @@ audio {
 /* max 696px */
 @media screen and (max-width: 696px) {
 
-/* hamburger background style max width */
+    /* hamburger background style max width */
     .nav {
         background-color: #fff;
     }
+
+    /* hero section */
     #home-hero {
         background: url(../images/hero-mobile2.jpg) no-repeat top center;
         height: 550px;
@@ -679,6 +686,14 @@ audio {
     .hero-main {
         padding: 0;
         margin-top: 275px;
+    }
+
+    /* form section */
+
+    .form-hero-text {
+        width: 100%;
+        bottom: 0;
+        padding-top: 15%;
     }
 
     .form-hero-text>hr {
@@ -709,12 +724,6 @@ audio {
         display: block;
     }
 
-    .form-hero-text {
-        width: 100%;
-        bottom: 0;
-        padding-top: 15%;
-    }
-
     .circle-image-mobile {
         text-align: center;
     }
@@ -722,6 +731,7 @@ audio {
     #more {
         display: none;
     }
+
     /* pro/con mobile styles */
 
     #pro-con-container {
