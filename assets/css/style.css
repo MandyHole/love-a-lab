@@ -362,10 +362,9 @@ textarea {
 
     /* essential columns */
 
-.box-style-left {
+.box-style-left, .box-style-right {
     background-color: #f8cf40;
-    padding: 5% 5%;
-    border: 3px solid #eb4084;
+    padding: 5%;
 }
 
 .box-style-left>h3 {
@@ -376,12 +375,6 @@ textarea {
 .essential-image-left>img,
 .essential-image>img {
     width: 100%;
-}
-
-.box-style-right {
-    background-color: #f8cf40;
-    padding: 5%;
-    border: 3px solid #eb4084;
 }
 
 .box-style-right>h3 {
