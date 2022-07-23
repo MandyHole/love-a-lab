@@ -30,6 +30,7 @@ hr {
     width: 50%;
 }
 
+/* Elements used across pages */
 
 /* headings */
 
@@ -52,7 +53,6 @@ hr {
     text-align: center;
 }
 
-
 /* buttons */
 
 .button {
@@ -70,12 +70,17 @@ hr {
 
 .submit-button:hover {
     background-color: transparent;
-    border: 2px solid #f8cf40;
 }
 
 .submit-button {
     text-transform: uppercase;
+    cursor: pointer;
+    border: 4px solid #eb4084;
+    padding: 5px 25px;
+    margin: 15px auto;
+    line-height: 2rem;
 }
+
 .info-button {
     line-height: 2rem;
     display: block;
@@ -94,6 +99,22 @@ hr {
     color: #fff;
 }
 
+/* #myBtn {
+    background-color: transparent;
+    border: 2px solid #f8cf40;
+    text-transform: uppercase;
+    color: #0C1D1D;
+    padding: .5rem 1.3rem;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+#myBtn:hover {
+    background-color: #f8cf40;
+    border: 2px solid #eb4084;
+    color: #0C1D1D;
+} */
 
 /* header elements */
 nav>ul {
@@ -250,7 +271,6 @@ nav>ul {
     }
 }
 
-
 /* footer */
 .copyright {
     border-top: 1px solid #eb4084;
@@ -345,9 +365,7 @@ nav>ul {
     text-align: center;
 }
 
-
 /* essential columns */
-
 
 .box-style-left {
     background-color: #f8cf40;
@@ -750,23 +768,6 @@ audio {
 
     #more {
         display: none;
-    }
-
-    #myBtn {
-        background-color: transparent;
-        border: 2px solid #f8cf40;
-        text-transform: uppercase;
-        color: #0C1D1D;
-        padding: .5rem 1.3rem;
-        display: block;
-        margin: 0 auto;
-        font-size: 1.2rem;
-    }
-
-    #myBtn:hover {
-        background-color: #f8cf40;
-        border: 2px solid #eb4084;
-        color: #0C1D1D;
     }
 
     #pro-con-container {
