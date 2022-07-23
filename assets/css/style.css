@@ -55,7 +55,7 @@ hr {
 
 /* buttons */
 
-.button {
+/* .button {
     background-color: #1c87c9;
     border: none;
     color: white;
@@ -66,7 +66,7 @@ hr {
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
-}
+} */
 
 .submit-button:hover {
     background-color: transparent;
@@ -98,23 +98,6 @@ hr {
     background-color: #0C1D1D;
     color: #fff;
 }
-
-/* #myBtn {
-    background-color: transparent;
-    border: 2px solid #f8cf40;
-    text-transform: uppercase;
-    color: #0C1D1D;
-    padding: .5rem 1.3rem;
-    display: block;
-    margin: 0 auto;
-    font-size: 1.2rem;
-}
-
-#myBtn:hover {
-    background-color: #f8cf40;
-    border: 2px solid #eb4084;
-    color: #0C1D1D;
-} */
 
 /* header elements */
 nav>ul {
@@ -269,6 +252,26 @@ nav>ul {
     .nav {
         background-color: #fff;
     }
+}
+
+/* form */
+input,
+textarea {
+    background-color: #f8cf40;
+    margin: 0 auto;
+    border: 4px solid #eb4084;
+    text-align: center;
+}
+
+.input-line {
+    display: block;
+    clear: both;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.small {
+    font-size: smaller;
 }
 
 /* footer */
@@ -429,9 +432,8 @@ nav>ul {
 
 /* form areas  */
 
-footer {
+.form-area {
     margin-top: 15px;
-    clear: both;
     border-top: 8px solid #eb4084;
 }
 
@@ -464,28 +466,6 @@ footer {
 #footer-hero-text>hr {
     margin: 0 auto 10px;
 }
-
-input,
-textarea {
-    background-color: #f8cf40;
-    margin: 0 auto;
-    border: 2px solid #eb4084;
-    text-align: center;
-}
-
-.input-line {
-    display: block;
-    clear: both;
-    line-height: 2rem;
-    text-align: center;
-}
-
-.small {
-    font-size: smaller;
-}
-
-
-
 
 /* pros-cons.html styling */
 #pros-hero {
@@ -754,6 +734,9 @@ audio {
             "right-image-one"
             "about-me";
         grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    #myBtn {
+        display:block;
     }
 
     #footer-hero-text {
