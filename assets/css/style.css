@@ -424,6 +424,11 @@ textarea {
 /* pros-cons.html styling */
 #pros-hero {
     background: url(../images/pro-con-hero.jpg) no-repeat center center;
+    height: 600px;
+    width: 100%;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 #pro-con-container {
@@ -467,6 +472,11 @@ textarea {
 
 #tip-hero {
     background: url(../images/tips-top-hero-2.jpg) no-repeat right center;
+    height: 600px;
+    width: 100%;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
     /* tip grid and core elements */
