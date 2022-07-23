@@ -400,16 +400,7 @@ textarea {
     display: none;
 }
 
-/* section divider */
-/* .divider {
-    width: 100%;
-    padding: 0 0;
-    margin: 0 0;
-} */
-
 /* form area  */
-
-
 
 #home-form {
     background: url(../images/footer-image.jpg) no-repeat center center;
@@ -742,10 +733,6 @@ audio {
     }
 
     /* tips mobile styling */
-
-    /* #tip-hero {
-        background: url(../images/daisy-basket-mobile.jpg) no-repeat top center;
-    } */
 
     .tips-grid {
         grid-template-areas:
