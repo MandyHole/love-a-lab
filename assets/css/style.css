@@ -72,7 +72,7 @@ nav>ul {
 
 .header {
 
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     background: #fff;
@@ -209,7 +209,7 @@ nav>ul {
 
     .menu a:hover {
         background-color: transparent;
-        color: var(--gray);
+        color: #f8cf40;
 
     }
 
