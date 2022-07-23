@@ -200,6 +200,24 @@ nav>ul {
     top: 0;
 }
 
+/* hero headers */
+.top-hero-area {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 8px solid #eb4084;
+}
+
+.top-hero-text {
+    background-color: rgba(64, 176, 223, .7);
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
 /* form */
 .form-area {
     margin-top: 15px;
@@ -262,23 +280,8 @@ textarea {
 
 /* home hero styling */
 #home-hero {
-    width: 100%;
-    height: 600px;
     background: url(../images/home-hero2.jpg) no-repeat right center;
-    overflow: hidden;
-    position: relative;
-    border-bottom: 8px solid #eb4084
 }
-
-#home-hero-text {
-    background-color: rgba(64, 176, 223, .7);
-    height: 200px;
-    width: 400px;
-    position: absolute;
-    left: 30px;
-    bottom: 20px;
-}
-
 /* essentials section styling */
 
 /* grid elements */
@@ -414,21 +417,7 @@ textarea {
 
 /* pros-cons.html styling */
 #pros-hero {
-    width: 100%;
-    height: 600px;
     background: url(../images/pro-con-hero.jpg) no-repeat center center;
-    overflow: hidden;
-    position: relative;
-    border-bottom: 8px solid #eb4084
-}
-
-#pro-con-hero-text {
-    background-color: rgba(64, 176, 223, .7);
-    height: 200px;
-    width: 400px;
-    position: absolute;
-    left: 30px;
-    bottom: 20px;
 }
 
 #pro-con-container {
@@ -471,12 +460,7 @@ textarea {
 /* tips.html styling */
 
 #tip-hero {
-    width: 100%;
-    height: 600px;
-    background: url(../images/daisy-basket2.jpg) no-repeat top center;
-    overflow: hidden;
-    position: relative;
-    border-bottom: 8px solid #eb4084;
+    background: url(../images/tips-top-hero-2.jpg) no-repeat right center;
 }
 
     /* tip grid and core elements */
@@ -667,10 +651,9 @@ audio {
     /* hero section */
     #home-hero {
         background: url(../images/hero-mobile2.jpg) no-repeat top center;
-        height: 550px;
     }
 
-    #home-hero-text {
+    .top-hero-text {
         width: 100%;
         left: 0;
         bottom: 0;
@@ -760,9 +743,9 @@ audio {
 
     /* tips mobile styling */
 
-    #tip-hero {
+    /* #tip-hero {
         background: url(../images/daisy-basket-mobile.jpg) no-repeat top center;
-    }
+    } */
 
     .tips-grid {
         grid-template-areas:
