@@ -278,13 +278,13 @@ textarea {
 
 /* index.html styles */
 
-/* home hero styling */
+    /* home hero styling */
 #home-hero {
     background: url(../images/home-hero2.jpg) no-repeat right center;
 }
-/* essentials section styling */
+    /* essentials section styling */
 
-/* grid elements */
+    /* grid elements */
 #essential-qualifications {
     display: grid;
     margin: 15px 30px 0 30px;
@@ -334,7 +334,7 @@ textarea {
     grid-area: right-image-two;
 }
 
-/* intro area */
+    /* intro area */
 
 #essentials-intro>hr {
     margin: 0 auto;
@@ -345,7 +345,7 @@ textarea {
     text-align: center;
 }
 
-/* essential columns */
+    /* essential columns */
 
 .box-style-left {
     background-color: #f8cf40;
@@ -374,7 +374,7 @@ textarea {
     text-align: center;
 }
 
-/* aside area */
+    /* aside area */
 #about-me h2 {
     text-align: left;
 }
@@ -400,7 +400,7 @@ textarea {
     display: none;
 }
 
-/* form area  */
+    /* form area  */
 
 #home-form {
     background: url(../images/footer-image.jpg) no-repeat center center;
@@ -534,14 +534,14 @@ audio {
     margin: 0 auto;
 }
 
- /* tip page footer */
+    /* tip page footer */
 #tips-footer-hero {
     background: url(../images/brown-lab-right.jpg) no-repeat right center;
 }
 
 /* media queries */
 
-/* max 1260px */
+    /* max 1260px */
 @media screen and (max-width: 1260px) {
 
     #right-essential-image-one {
@@ -586,11 +586,6 @@ audio {
     }
 
     /* pros/cons */
-    #pro-con-hero-text {
-        left: 0;
-        bottom: 0;
-        height: 168px;
-    }
 
     .pros-content,
     .cons-content {
@@ -718,14 +713,6 @@ audio {
     .cons-content {
         padding: 3%;
         margin: 5px auto;
-    }
-
-    #pro-con-hero-text {
-        width: 100%;
-        left: 0;
-        bottom: 0;
-        height: 100%;
-        position: absolute;
     }
 
     #pro-con-footer-hero {
