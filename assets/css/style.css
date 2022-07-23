@@ -29,7 +29,7 @@ hr {
     width: 50%;
 }
 
-/* Elements used across pages */
+/* classes used across pages */
 
 /* headings */
 
@@ -199,6 +199,34 @@ nav>ul {
 }
 
 /* form */
+.form-area {
+    margin-top: 15px;
+    border-top: 8px solid #eb4084;
+    width:100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+#form-hero-text {
+    background-color: rgba(64, 176, 223, .7);
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#form-hero-text>h1 {
+    padding: 10px 5px 0 15px;
+}
+
+#form-hero-text>hr {
+    margin: 0 auto 10px;
+}
+
 input,
 textarea {
     background-color: #f8cf40;
@@ -294,7 +322,6 @@ textarea {
 
 #time {
     grid-area: time;
-
 }
 
 #essential-right-image-two {
@@ -376,38 +403,10 @@ textarea {
 
 /* form area  */
 
-.form-area {
-    margin-top: 15px;
-    border-top: 8px solid #eb4084;
-    width:100%;
-    height: 600px;
-    overflow: hidden;
-    position: relative;
-}
+
 
 #home-form {
     background: url(../images/footer-image.jpg) no-repeat center center;
-}
-
-#form-hero-text {
-    background-color: rgba(64, 176, 223, .7);
-    height: 500px;
-    width: 400px;
-    position: absolute;
-    left: 30px;
-    bottom: 50px;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 1.1rem;
-}
-
-#form-hero-text>h1 {
-    padding: 10px 5px 0 15px;
-}
-
-
-#form-hero-text>hr {
-    margin: 0 auto 10px;
 }
 
 /* pros-cons.html styling */
