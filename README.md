@@ -20,12 +20,15 @@ My aim is to have fewer Labradors:
 ### Existing Features
 
 <br>
-<p><strong>Favicon:</strong> The blue pawprint is lifted from the logo – it is designed to be clear and easily recognisable in a browser bar if people move to another page as well as provide site continuity.
+<p><strong>Favicon:</strong> The blue pawprint is lifted from the logo – it is designed to be clear and easily recognisable in a browser bar if people move to another page as well as provide site continuity.</p>
+<p>
+<img src="assets/images/readme-favicon.png" alt="blue paw shown in Chrome browser">
 </p>
 <p><strong>Logo:</strong> The logo adds continuity through the site as its appearance matches the heading fonts and colours used throughout the website. The pawprint in the logo matches the favicon.
 </p>
 <p><strong>Menu:</strong> The full responsive menu guides people easily through the three pages of the site: Home, Pros & Cons and Tips. For mobiles, the menu becomes the widely recognised ‘hamburger menu” matching the colour scheme of the site. It’s fixed to the top of the page so easily accessible wherever people are at on the site.
 </p>
+<p><img src="assets/images/readme-menu.jpg" alt="menu at 696px, 697px, and expanded hamburger menu"></p> 
 <p><strong>Hero Headers:</strong> These are designed to engage the viewer when they first come onto each page with animation, a cute photo of a puppy and a clear indication of the information found on the page.
 </p>
 <p><strong>Essential Qualifications:</strong> These provide the bare minimum requirements for any responsible dog owner so that is why they are given such prominence on the website. They are broken down into three bite-size chunks to make them easier to read.
