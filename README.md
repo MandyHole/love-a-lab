@@ -45,7 +45,11 @@ My aim is to have fewer Labradors:
 <p><img src="assets/images/readme-pros-cons.jpg" alt="Screenshots of the Pros and Cons in two different layouts: two columns and one column" ></p> 
 <p><strong>Tips:</strong> This section came last as it is assuming that people have ultimately come to the conclusion that Labradors are potentially right for them. However, the site also wants to address that to be a responsible dog owner requires training (so that they won’t decide to give up the dog later due to behaviour issues): early and consistent training is key to having a happy, healthy and successful dog! The tips are broken down into small sections in coloured boxes with columns broken up by images to make them appealing and easy to read. Links to reputable sites provide additional research opportunities, and audio and video options provide the viewer to experience content with media, rather than just by reading.
 </p>
-<p><img src="assets/images/tips.jpg" alt="Screenshots of the Tips content in three different layouts: three columns, two columns and one column" ></p>
+<p><img src="assets/images/readme-tips.jpg" alt="Screenshots of the Tips content in three different layouts: three columns, two columns and one column" ></p>
+<p><strong>Quotes Slideshow:</strong> This shows a mixture of quotes about the joys of having a dog and the need for responsibility. It is designed to show a glimpse of the next quote so the viewer knows to slide to see more.
+</p>
+<p><img src="assets/images/readme-quote-slideshow.png" alt="Screenshot of the first quote and glimpse of the second in the slideshow on the Pros/Cons page" ></p>
+
 <br>
 
 ### Features left to implement
@@ -138,6 +142,7 @@ CSS Grids:
 
 Hero Animation (Page Headers): Code Institute Love Running source code
 
+Slideshow for quotes: <a href="https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/" target="_blank" rel="external">CSS Tricks</a></p>
 
 ### Media
 
