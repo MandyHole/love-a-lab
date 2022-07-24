@@ -10,6 +10,7 @@ My aim is to have fewer Labradors:
 <li>being rehomed </li>
 <li>not have the training they need to live up to their potential.</li>
 </ul>
+<img src="assets/images/readme-overview.jpg" alt="Different sections of the website shown on mobile, desktop and tablet (portrait and landscape view)">
 
 <hr>
 
