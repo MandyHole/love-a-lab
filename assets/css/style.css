@@ -468,26 +468,29 @@ textarea {
         margin-top: 15px;
       }
       .slide {
-        width: 100%;
+        width: 80%;
         height:300px;
         flex-shrink: 0;
         height: 100%;
         background-color: #40b0df;
         scroll-behavior: smooth;
+        margin:auto;
+        
       }
       .slide-yellow {
-        width: 100%;
+        width: 80%;
         flex-shrink: 0;
         height: 100%;
         background-color: #f8cf40;
-      }
+        margin:auto;      
+    }
       .quote {
-        padding: 3% 20%;
         font-size: xx-large;
         font-family: 'Chewy', cursive;
         letter-spacing: 3px;
         text-align: center;
         line-height: 3rem;
+        padding: 1% 5%;
       }
       .slides > div, .slide > div, .slide-yellow > div {
         scroll-snap-align: start;
@@ -504,6 +507,8 @@ textarea {
         padding: 1%;
         margin-left: 5px;
         cursor: pointer;  
+        border: 3px solid #eb4084;
+    color: #0C1D1D;
       }
 
 #pro-con-footer-hero {
