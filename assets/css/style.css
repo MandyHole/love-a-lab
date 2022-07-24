@@ -495,7 +495,7 @@ textarea {
 
 .quote {
     font-size: xx-large;
-    font-family: 'Chewy', cursive;
+    font-family: 'Chewy','Merriweather', serif;
     letter-spacing: 3px;
     text-align: center;
     line-height: 3rem;
