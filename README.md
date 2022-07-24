@@ -24,28 +24,26 @@ My aim is to have fewer Labradors:
 <p>
 <img src="assets/images/readme-favicon.png" alt="blue paw shown in Chrome browser">
 </p>
-<p><strong>Logo:</strong> The logo adds continuity through the site as its appearance matches the heading fonts and colours used throughout the website. The pawprint in the logo matches the favicon.
+<p><strong>Logo:</strong> The logo adds continuity through the site as its appearance matches the heading fonts and colours used throughout the website. The pawprint in the logo matches the favicon. (The logo can be seen in the menu screenshot below.)
 </p>
 <p><strong>Menu:</strong> The full responsive menu guides people easily through the three pages of the site: Home, Pros & Cons and Tips. For mobiles, the menu becomes the widely recognised ‘hamburger menu” matching the colour scheme of the site. It’s fixed to the top of the page so easily accessible wherever people are at on the site.
 </p>
 <p><img src="assets/images/readme-menu.jpg" alt="menu at 696px, 697px, and expanded hamburger menu"></p> 
-<p><strong>Hero Headers:</strong> These are designed to engage the viewer when they first come onto each page with animation, a cute photo of a puppy and a clear indication of the information found on the page.
+<p><strong>Hero Headers:</strong> These are designed to engage the viewer when they first come onto each page with animation, a cute photo of a puppy and a clear indication of the information found on the page. The mobile version has an opacity covering the entire image as the content took up a large proportion of the image.
 </p>
 <p><img src="assets/images/readme-hero.jpg" alt="Hero appearance at two different widths (mobile and tablet)"></p> 
 <p><strong>Essential Qualifications:</strong> These provide the bare minimum requirements for any responsible dog owner so that is why they are given such prominence on the website. They are broken down into three bite-size chunks to make them easier to read.
 </p>
 <p><img src="assets/images/readme-essential.jpg" alt="Essential info at three different widths"></p> 
 
-<p><strong>About Me:</strong>This section is meant to help people identify with the website author and know that they are not alone as well as give them confidence that if they are willing to commit to doing it properly, Labradors are a great option – even for people who aren’t naturally drawn to animals. As it looks long on the mobile version and isn’t essential, there is a “Read More” option for smaller viewports. As this is not key information, it is given a semantic tag of an aside.<img src="assets/images/readme-aboutme.png" alt="About Me section in mobile form with 'read more' button" width="50%">
+<p><strong>About Me:</strong>This section is meant to help people identify with the website author and know that they are not alone as well as give them confidence that if they are willing to commit to doing it properly, Labradors are a great option – even for people who aren’t naturally drawn to animals. As it looks long on the mobile version and isn’t essential, there is a “Read More” option for smaller viewports. As this is not key information, it is given a semantic tag of an aside.</p>
+<p><img src="assets/images/readme-aboutme.png" alt="About Me section in mobile form with 'read more' button" width="50%"></p> 
+<p><strong>Ask a question:</strong> This is a friendly looking form with an inviting ‘Ask Away’ submit button to encourage people to get in touch if they are unsure of anything and want some advice. </p>
+<p><img src="assets/images/readme-form.jpg" alt="Example of a form at the bottom of the page at three different widths to show responsiveness"></p> 
+<p><strong>Pros and Cons:</strong> This is to help people assess the Pros and Cons of having a Labrador versus having other breeds (or no dog at all). I knew someone who purchased a Labrador to help her feel safe and be a ‘guard dog’ of sorts: this is completely the wrote type of dog for that! She ultimately gave her Labrador to a friend; it is happy and well cared for, but it is this type of misconception that this site hopes to address.  This section is placed second because it is assuming that people meet the ‘Essential Qualifications’ for having a dog and are now determining if this breed (or any dog) is really right for them.
 </p>
-<p></p> 
-<p><strong>Ask a question:</strong> This is a friendly looking form with an inviting ‘Ask Away’ submit button to encourage people to get in touch if they are unsure of anything and want some advice. 
-</p>
-<p><strong>Pros and Cons:</strong> This is to help people assess the Pros and Cons of having a Labrador versus having other breeds (or no dog at all). I knew someone who purchased a Labrador to help her feel safe and be a ‘guard dog’ of sorts: this is completely the wrote type of dog for that! She ultimately gave her Labrador to a friend; it is happy and well cared for, but it is this type of misconception that this site hopes to address.
-</p>
-<p>This section is placed second because it is assuming that people meet the ‘Essential Qualifications’ for having a dog and are now determining if this breed (or any dog) is really right for them.
-</p>
-<p><strong>Tips:</strong> This section came last as it is assuming that people have ultimately come to the conclusion that Labradors are potentially right for them. However, the site also wants to address that to be a responsible dog owner requires training (so that they won’t decide to give up the dog later due to behaviour issues). It is my firm belief that early and consistent training is key to having a happy, healthy and successful dog!
+<p><img src="assets/images/readme-pros-cons.jpg" alt="Screenshots of the Pros and Cons in two different layouts: two columns and one column" ></p> 
+<p><strong>Tips:</strong> This section came last as it is assuming that people have ultimately come to the conclusion that Labradors are potentially right for them. However, the site also wants to address that to be a responsible dog owner requires training (so that they won’t decide to give up the dog later due to behaviour issues): early and consistent training is key to having a happy, healthy and successful dog! The tips are broken down into small sections in coloured boxes with columns broken up by images to make them appealing and easy to read. Links to reputable sites provide additional research opportunities, and audio and video options provide the viewer to experience content with media, rather than just by reading.
 </p>
 <br>
 
@@ -58,7 +56,7 @@ My aim is to have fewer Labradors:
 ## Testing
 
 ### Layout:
-I originally designed the homepage using the theories taught in the course (using floats, display: none, column widths/heights). With a rather complicated design of double column intro and an aside, it was very complicated. To have my content and photos line up, I had to give each div an arbitrary size, which meant that, depending on media widths, I would have had massive gaps between my columns or would face an unmanageable number of breakpoints. Also, I was having to have extra filler images appear or be hidden depending on how my content was split so there wasn’t a massive gap. I also would have to check the height for various breakpoints to make sure the columns were the same size. Finally, as my aside appeared in the wrong place (under the qualifications intro) so I then had to hide/show the original/duplicate depending on the media width. It was all very messy and complicated, and I knew there had to be a better way! 
+I originally designed the homepage using the theories taught in the course (using floats, display: none, column widths/heights). With a rather complicated design of double column intro and an aside, it was very difficult to look good without an unmanageable number of breakpoints; to have my content and photos line up, I had to give each div an arbitrary size, which meant that, depending on media widths, I would have had massive gaps between my columns. Also, I was having to have extra filler images appear or be hidden depending on how my content was split so there wasn’t a massive gap in a column. I also would have to check the height for various breakpoints to make sure the columns were the same size. Finally, as my aside appeared in the wrong place in the mobile view (under the qualifications intro), I then had to hide/show the original/duplicate depending on the media width. It was all very messy and complicated, and I knew there had to be a better way! 
 
 Upon recommendation from my Mentor, I tried flex-box for my pros/cons page. Researching that also let me to grid css, which I implemented on my tips page. Both were remarkably easier to use, and my gaps between both pages were consistent and the pages looked much more professional. Upon reflection, I decided to redo my homepage with grid to ensure consistency through the site. Unfortunately, doing it retrospectively caused a lot more effort and took a lot of experimentation to get it right, removing the extra divs, images and formatting that were no longer required. 
 
@@ -68,9 +66,9 @@ I discovered that this would not work properly if the user had already scrolled 
 
 ### Media queries:
 
-To make the site responsive, I went from three to two columns on the home/Tips pages for a smaller screen/tablet, and then down again to a one column layout for mobile. For the pros/cons page, it went from a two column to a one column layout. 
+To make the site responsive, I went from three to two columns on both the home and Tips pages for a smaller screen/tablet, and then down again to a one column layout for mobile. For the pros/cons page, it went from a two column to a one column layout for mobile. 
 
-I also had to add alternate mobile images for some backgrounds to ensure that the dog’s face was shown.
+I also had to add alternate mobile images for some background images to ensure that the dog’s face was shown.
 
 ### Consistency:
 
@@ -78,27 +76,29 @@ As I reviewed the site, I realised that there was a bit of inconsistency in vari
 
 ### Colour contrast:
 
-When selecting colours, I utilised https://webaim.org/resources/contrastchecker/ to ensure the background colours I used were suitable for dark colour text at a normal size. I then found the lightest black shade I could that still met AAA standards for normal text to use as my main font colour. I put the blue/yellow combination into a colour wheel to find a complementary third colour: a shade of magenta pink. As it did not meet standards, I used it solely for decoration.
+When selecting colours, I utilised https://webaim.org/resources/contrastchecker/ to ensure the background colours I used were suitable for dark colour text at a normal size. I then found the lightest black shade I could that still met AAA standards for normal text to use as my main font colour. I put the blue/yellow combination into a colour wheel to find a complementary third colour: a shade of magenta pink. As it did not meet colour contrast standards for text, I used it solely for decoration.
 
 ### Validator Testing
-•	HTML: No errors were returned when passing through the official W3C validator
-•	CSS: No errors were found when passing through the official (Jigsaw) validator
+<ul>
+<li>HTML: No errors were returned when passing through the official W3C validator</li>
+<li>CSS: No errors were found when passing through the official (Jigsaw) validator</li>
+</ul>
 
 ### Unfixed Bugs
 
-The form submissions are currently set up to go to a form dump area on the Code Institute website. Ideally, these would be sent to my email so that I could respond accordingly, have reCAPTCHA functionality to weed out spam and an auto response/message so that the user knows that the form was successfully submitted. They were not fixed as I do not have a database capable of collecting data at the moment. 
+<strong>Form: </strong>The form submissions are currently set up to go to a form dump area on the Code Institute website. Ideally, these would be sent to my email so that I could respond accordingly, have reCAPTCHA functionality to weed out spam and an auto response/message so that the user knows that the form was successfully submitted. They were not fixed as I do not have a database capable of collecting data at the moment. 
 
-I sometimes found myself on a mission and would forget to add/commit as often as I probably should have, and then tried to remember what it was I had done! I also sometimes thought I’d committed something and realised a typo of some sort meant it didn’t go through, and I’d often have to kill of a terminal and restart and then have a commit taking both messages into account. Unfortunately, this is not something that can be fixed retrospectively.
+<strong>Git Add/Commit: </strong>I sometimes found myself lost on a mission and would realise that I should have done an add/commit sooner than I did, and then tried to remember what it was I had done! I also sometimes thought I’d committed something and realised a typo of some sort meant it didn’t go through, and I’d often have to kill of a terminal and restart and then have a commit taking both messages into account. Unfortunately, this is not something that can be fixed retrospectively.
 
 <hr>
 
 ## Deployment
-•	The site was deployed to GitHub pages. The steps to deploy are as follows:
-o	In the GitHub repository, navigate to the Settings tab
-o	From the source section drop-down menu, select the Master Branch
-o	Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - xxxxxx
-
+<ul><li>The site was deployed to GitHub pages. The steps to deploy are as follows:<ol>
+<li>In the GitHub repository, navigate to the Settings tab</li>
+<li>From the source section drop-down menu, select the Master Branch</li>
+<li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li></ol></li>
+<li>The live link can be found here - xxxxxx</li>
+</ul>
 <hr>
 
 ## Credits:
