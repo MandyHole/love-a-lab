@@ -1,7 +1,7 @@
 # Love a Labrador?
 
 ## Overview of website
-This site is aimed at anyone who is unsure whether a Labrador Retriever is right for them.  According to <a href="https://www.devonlive.com/whats-on/family-kids/labrador-uks-most-popular-dog-6842152" target="_blank" rel="external">DevonLive</a> “The Labrador retriever has been the UK’s favourite pedigree dog breed for years, and there was a 54% increase in their numbers from 2020 to 2021.”  . There is a danger in equating popularity with suitability, and just because they are renowned as good family dogs doesn’t mean they aren’t hard work and a big commitment. According to <a href="https://www.bbc.co.uk/news/uk-58518892" target="_blank" rel="external">BBC News</a>, in September 2021, “The Dogs Trust said it expected to see an increase in the number of dogs it receives in the months to come, describing it as a "looming crisis". 
+This site is aimed at anyone who is unsure whether a Labrador Retriever is right for them.  According to <a href="https://www.devonlive.com/whats-on/family-kids/labrador-uks-most-popular-dog-6842152" target="_blank" rel="external" aria-label="DevonLive article about Labradors (opens in new window)">DevonLive</a> “The Labrador retriever has been the UK’s favourite pedigree dog breed for years, and there was a 54% increase in their numbers from 2020 to 2021.”  . There is a danger in equating popularity with suitability, and just because they are renowned as good family dogs doesn’t mean they aren’t hard work and a big commitment. According to <a href="https://www.bbc.co.uk/news/uk-58518892" target="_blank" rel="external" aria-label="BBC article about dog rehoming looming crisis (opens in new window)">BBC News</a>, in September 2021, “The Dogs Trust said it expected to see an increase in the number of dogs it receives in the months to come, describing it as a "looming crisis". 
 
 This ‘Love a Labrador?’ website helps potential owners assess whether or not they should go ahead by letting them know: the essential qualifications they need, the pros and cons of having a Labrador vs other breeds (or not having a dog at all) and tips on how to be a successful Labrador owner with a warning of what happens if you don’t put in the time to train a Labrador properly.
 
@@ -79,7 +79,7 @@ My aim is to have fewer Labradors:
 
 ### Colour contrast:
 
-<p>When initially selecting colours, I utilised <a href="https://webaim.org/resources/contrastchecker/" target="blank" rel="external" aria-label="Web AIM colour contrast checker"></a>WebAIM's colour contrast checker  to ensure the background colours I used were suitable for dark colour text at a normal size. I then found the lightest black shade I could that still met AAA standards for normal text to use as my main font colour. I put the blue/yellow combination into a colour wheel to find a complementary third colour: a shade of magenta pink. As it did not meet colour contrast standards for text, I used it solely for decoration.</p>
+<p>When initially selecting colours, I utilised <a href="https://webaim.org/resources/contrastchecker/" target="blank" rel="external" aria-label="Web AIM colour contrast checker (opens in new window)"></a>WebAIM's colour contrast checker  to ensure the background colours I used were suitable for dark colour text at a normal size. I then found the lightest black shade I could that still met AAA standards for normal text to use as my main font colour. I put the blue/yellow combination into a colour wheel to find a complementary third colour: a shade of magenta pink. As it did not meet colour contrast standards for text, I used it solely for decoration.</p>
 
 ### Validator Testing
 <ul>
@@ -110,52 +110,63 @@ My aim is to have fewer Labradors:
 
 ### Content
 
-The content for this website drew on my personal experience of owning a Labrador Retriever and my training from trainers through the charity Dogs for Good. However, I included several external links to reputable sources for more information that I think every potential owner should know, including:
+The content for this website drew on my personal experience of owning a Labrador Retriever and my training from trainers through the charity Dogs for Good. 
+
+I also included several external links to reputable sources for more information that I think every potential owner should know, including:
 
 <ul>
-<li><a href="https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/could-you-spot-a-puppy-farm" target="_blank" rel="external" aria-label="PDSA Spot a Puppy Farm advice">PDSA</a></li>
-<li><a href="https://www.thekennelclub.org.uk/health-and-dog-care/health/health-and-care/a-z-of-health-and-care-issues" target="_blank" aria-label=" The Kennel Club Health and Care Issues" rel="external">The Kennel Club</a></li>
-<li><a href="https://www.dogstrust.org.uk/help-advice/factsheets-downloads/basicdogtrainingfactsheetnov13.pdf" target="_blank" rel="external" aria-label="The Dogs Trust training tips">The Dogs Trust</a></li>
+<li><a href="https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/could-you-spot-a-puppy-farm" target="_blank" rel="external" aria-label="PDSA Spot a Puppy Farm advice (opens in new window)">PDSA</a></li>
+<li><a href="https://www.thekennelclub.org.uk/health-and-dog-care/health/health-and-care/a-z-of-health-and-care-issues" target="_blank" aria-label=" The Kennel Club Health and Care Issues (opens in new window)" rel="external">The Kennel Club</a></li>
+<li><a href="https://www.dogstrust.org.uk/help-advice/factsheets-downloads/basicdogtrainingfactsheetnov13.pdf" target="_blank" rel="external" aria-label="The Dogs Trust training tips (opens in new window)">The Dogs Trust</a></li>
 </ul>
 
-iframe code for <em>Marley and Me</em> Trailer: <a href="https://www.youtube.com/watch?v=0UMMGNxg1Lg" target="_blank" rel="external" aria-label="Marley and Me Trailer on YouTube">YouTube</a>
+iframe code for <em>Marley and Me</em> Trailer: <a href="https://www.youtube.com/watch?v=0UMMGNxg1Lg" target="_blank" rel="external" aria-label="Marley and Me Trailer on YouTube (opens in new window)">YouTube</a>
+
+Quotes about dogs / labradors:
+<ul>
+<li><a href="https://labradorlovingsouls.com/labrador-quotes-15-quotes-for-every-labrador-lover/" target="_blank" rel="external" aria-label="quotes about labradors (opens in new window)">Labrador Loving Soul</a></li>
+<li><a href="https://www.goodreads.com" target="_blank" aria-label="Good Reads website (opens in new window)" rel="external">Good Reads</a></li>
+<li><a href="https://www.thelabradorsite.com/" target="_blank" rel="external" aria-label="The Labrador Site website (opens in new window)">The Labrador Site</a></li>
+<li><a href="https://www.redbubble.com/i/poster/Dogs-don-t-shed-they-emit-magical-fibers-of-joy-and-love-Funny-quote-about-dogs-by-jasonhoffman/24905882.LVTDI" target="_blank" rel="external" aria-label="The Red Bubble Site poster for sale with shedding quote (opens in new window)">Red Bubble website</a></li>
+</ul>
+
 
 <hr>
 
 ### Code
 
-Hamburger style menu: <a href="https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/" target="_blank" rel="external" aria-label="Log Rocket's Hamburger Style Code">Log Rocket</a>
+Hamburger style menu: <a href="https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/" target="_blank" rel="external" aria-label="Log Rocket's Hamburger Style Code (opens in new window)">Log Rocket</a>
 
-Read More/ Read Less Button (used in Homepage About Me aside in mobile view): <a href="https://www.w3schools.com/howto/howto_js_read_more.asp" target="_blank" rel="external" aria-label="W3Schools Read More/ Read Less Code">W3Schools</a>
+Read More/ Read Less Button (used in Homepage About Me aside in mobile view): <a href="https://www.w3schools.com/howto/howto_js_read_more.asp" target="_blank" rel="external" aria-label="W3Schools Read More/ Read Less Code (opens in new window)">W3Schools</a>
 
 Flexbox: 
 <ul>
-<li><a href="https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG" target="_blank" rel="external" aria-label="YouTube Tutorial on Flexbox">YouTube</a></li>
-<li><a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank" rel="external" aria-label="W3Schools advice on flexbox">W3Schools</a></li>
-<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external" aria-label="CSS Tricks guide to Flexbox">CSS Tricks</a></li>
+<li><a href="https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG" target="_blank" rel="external" aria-label="YouTube Tutorial on Flexbox (opens in new window)">YouTube</a></li>
+<li><a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank" rel="external" aria-label="W3Schools advice on flexbox (opens in new window)">W3Schools</a></li>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external" aria-label="CSS Tricks guide to Flexbox (opens in new window)">CSS Tricks</a></li>
 </ul>
 
 CSS Grids: 
 
-<p>General concept for using Grids: <a href="https://www.w3schools.com/cssref/pr_grid.asp" target="_blank" rel="external">W3Schools</a></p>
-<p>Code for creating equal-width columns in CSS grid: <a href="https://css-tricks.com/equal-width-columns-in-css-grid-are-kinda-weird/" target="_blank" rel="external">CSS Tricks</a></p>
+<p>General concept for using Grids: <a href="https://www.w3schools.com/cssref/pr_grid.asp" target="_blank" rel="external" aria-label="W3Schools info for using grids (opens in new window)">W3Schools</a></p>
+<p>Code for creating equal-width columns in CSS grid: <a href="https://css-tricks.com/equal-width-columns-in-css-grid-are-kinda-weird/" target="_blank" rel="external" aria-label="CSS Tricks info for using grids (opens in new window)">CSS Tricks</a></p>
 
 Hero Animation (Page Headers): Code Institute Love Running source code
 
-Slideshow for quotes: <a href="https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/" target="_blank" rel="external">CSS Tricks</a></p>
+Slideshow for quotes: <a href="https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/" target="_blank" rel="external" aria-label="CSS Tricks info for creating a slideshow (opens in new window)">CSS Tricks</a></p>
 
 ### Media
 
-Images on Tips page: <a href="https://www.pexels.com/" target="_blank" rel="external" aria-label="Pexels Image Library">Pexels</a>
+Images on Tips page: <a href="https://www.pexels.com/" target="_blank" rel="external" aria-label="Pexels Image Library (opens in new window)">Pexels</a>
 
-Platform to create an ogg version of my mp4 file: <a href="https://convertio.co/" target="_blank" rel="external" aria-label="Convertio media converter">Convertio</a>
+Platform to create an ogg and mp3 versions of my mp4 file: <a href="https://convertio.co/" target="_blank" rel="external" aria-label="Convertio media converter (opens in new window)">Convertio</a>
 
-Chewy and Merriweather fonts used throughout the site: <a href="https://fonts.google.com" target="_blank" rel="external" aria-label="Google Fonts library">Google Fonts</a>
+Chewy and Merriweather fonts used throughout the site: <a href="https://fonts.google.com" target="_blank" rel="external" aria-label="Google Fonts library (opens in new window)">Google Fonts</a>
 
-Icons used for my favicon, logo, homepage boxes and Pros/Cons boxes: <a href="https://fontawesome.com" target="_blank" rel="external" aria-label="Font Awesome icon library">Font Awesome</a>
+Icons used for my favicon, logo, homepage boxes and Pros/Cons boxes: <a href="https://fontawesome.com" target="_blank" rel="external" aria-label="Font Awesome icon library (opens in new window)">Font Awesome</a>
 
 
-Platform for creating a Favicon image: <a href="https://realfavicongenerator.net/" target="_blank" rel="external" aria-label="Favicon Generator website">Favicon Generator</a>
+Platform for creating a Favicon image: <a href="https://realfavicongenerator.net/" target="_blank" rel="external" aria-label="Favicon Generator website (opens in new window)">Favicon Generator</a>
 
 
 Platform for resizing images: Adobe PhotoShop
