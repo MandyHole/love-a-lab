@@ -1,6 +1,8 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Merriweather&display=swap');
 
+/* HTML Tags */
+
 body {
     margin: 0 0;
     padding: 0 0;
@@ -135,6 +137,7 @@ nav>ul {
     border-bottom: 4px dotted #eb4084;
 }
 
+/* Log Rocket: https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/" */
 .nav {
     max-height: 0;
     transition: max-height .5s ease-out;
@@ -202,6 +205,7 @@ nav>ul {
     transform: rotate(45deg);
     top: 0;
 }
+/* End of Log Rocket Code */
 
 /* hero headers */
 
@@ -213,11 +217,11 @@ nav>ul {
     border-bottom: 8px solid #eb4084;
 }
 
+/* Love Running Code */
 @keyframes hero-zoom {
     from {
         transform: scale(1.1);
     }
-
     to {
         transform: scale(1);
     }
@@ -297,6 +301,7 @@ textarea {
     height: 600px;
     width: 100%;
     background: url(../images/home-hero2.jpg) no-repeat right center;
+    /* Love Running Code */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -304,7 +309,7 @@ textarea {
 
 /* essentials section styling */
 
-/* grid elements */
+/* grid elements (grid code concepts from W3Schools and CSS Tricks)*/
 #essential-qualifications {
     display: grid;
     margin: 15px 30px 0 30px;
@@ -425,11 +430,13 @@ textarea {
     background: url(../images/pro-con-hero.jpg) no-repeat center center;
     height: 600px;
     width: 100%;
+    /* Love Running Code */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
+/* Flex Code from YouTube/W3Schools/CSS Tricks */
 #pro-con-container {
     display: flex;
     width: 100%;
@@ -463,7 +470,7 @@ textarea {
     margin-left: 7.5px;
 }
 
-/* quotes slider */
+/* quotes slider - from CSS Tricks*/
 .slider {
     width: 100%;
     height: 300px;
@@ -523,12 +530,13 @@ textarea {
     background: url(../images/tips-top-hero-2.jpg) no-repeat right center;
     height: 600px;
     width: 100%;
+    /* Love Running Code */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
-/* tip grid and core elements */
+/* tip grid and core elements (grid code concepts from W3Schools and CSS Tricks) */
 .tips-grid {
     display: grid;
     box-sizing: border-box;
@@ -696,7 +704,7 @@ audio {
     }
 }
 
-/* hamburger menu style min-width */
+/* hamburger menu style min-width (Code from Log Rocket)*/
 @media (min-width: 696px) {
     .nav {
         max-height: 85px;
@@ -838,4 +846,3 @@ audio {
         background: url(../images/wren-beanbag-mobile.jpg) no-repeat center center;
     }
 }
-
