@@ -57,6 +57,8 @@ My aim is to have fewer Labradors:
 
 <p><strong>Blog/Message Board:</strong> In the future, I would add a page with a blog where I could write updates and post photos about my training journey with my Labrador puppy Daisy and allow others to submit their stories/photos for inclusion. </p>
 
+<p><strong>New image for Pros/Cons form background image:</strong> Whilst this image is sized properly, I realised belatedly that it wasn't quite as clear as I would have liked due to the quality of the original photo so I ideally would find or take another image that fit the size requirements.</p>
+
 <hr>
 
 ## Testing
@@ -77,6 +79,10 @@ My aim is to have fewer Labradors:
 ### Consistency:
 
 <p>As I reviewed the site, I realised that there was a bit of inconsistency in various elements across the site, which I sought to address by changing the inconsistent elements to be stylised by classes which I then implemented throughout the site, removing only elements that had to change (e.g., the background image on the hero) to be used in specific ids/classes. I used this approach for the headings, buttons, top hero area and form areas (and as I mentioned earlier, redoing the homepage to ensure consistency with row and column gaps/margins).</p>
+
+### Google Fonts:
+
+<p>As I reviewed the deployed site on my mobile, I realised that it wasn't recognising the Google Chewy font family and instead used a cursive. I realised that the link to the Google fonts was at the bottom of the CSS file instead of the top so I moved it to the top, which fixed the issue. To be on the safe side, I also changed the alternative font family to serif instead of cursive in case a font rendering issues happened to occur.</p>
 
 ### Colour contrast:
 
