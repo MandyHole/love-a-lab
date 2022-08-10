@@ -173,7 +173,7 @@ Chewy and Merriweather fonts used throughout the site: <a href="https://fonts.go
 Icons used for my favicon, logo, homepage boxes and Pros/Cons boxes: <a href="https://fontawesome.com" target="_blank" rel="external" aria-label="Font Awesome icon library (opens in new window)">Font Awesome</a>
 
 
-Platform for creating a Favicon image: <a href="https://realfavicongenerator.net/" target="_blank" rel="external" aria-label="Favicon Generator website (opens in new window)">Favicon Generator</a>
+Platform for inserting and creating a Favicon image: <a href="https://realfavicongenerator.net/" target="_blank" rel="external" aria-label="Favicon Generator website (opens in new window)">Favicon Generator</a>
 
 
 Platform for resizing images: Adobe PhotoShop
