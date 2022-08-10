@@ -84,6 +84,10 @@ My aim is to have fewer Labradors:
 
 <p>As I reviewed the deployed site on my mobile, I realised that it wasn't recognising the Google Chewy font family and instead used a cursive. I realised that the link to the Google fonts was at the bottom of the CSS file instead of the top so I moved it to the top, which fixed the issue. To be on the safe side, I also changed the alternative font family to serif instead of cursive in case a font rendering issues happened to occur.</p>
 
+### Incorrectly sized image:
+
+<p>As I reviewed the site using Lighthouse, I realised one image was sized to 4000px (I meant to do 400px) which slowed down the website as it was 1.7MB. I resized the image to 600px.</p>
+
 ### Colour contrast:
 
 <p>When initially selecting colours, I utilised <a href="https://webaim.org/resources/contrastchecker/" target="blank" rel="external" aria-label="Web AIM colour contrast checker (opens in new window)"></a>WebAIM's colour contrast checker  to ensure the background colours I used were suitable for dark colour text at a normal size. I then found the lightest black shade I could that still met AAA standards for normal text to use as my main font colour. I put the blue/yellow combination into a colour wheel to find a complementary third colour: a shade of magenta pink. As it did not meet colour contrast standards for text, I used it solely for decoration.</p>
